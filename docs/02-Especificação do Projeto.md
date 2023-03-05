@@ -134,16 +134,16 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamentos entre requisitos funcionais e não funcionais e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos do projeto. Isto é, através da matriz conseguimos identificar quantos e quais são afetados por qualquer mudança no sistema e no desenvolvimento no escopo do projeto. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+- Com ‘’X’’ estão os requisitos funcionais, não funcionais e o diagrama de classes 
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+![Exemplo de matriz de rastreabilidade](img/MATRIZ.png)
 
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+## Siglas:
+
+- | RF-Requisitos Funcionais | RNF- Requisitos não Funcionais | DC-Diagrama de Classes |
+
 
 
 # Gerenciamento de Projeto
