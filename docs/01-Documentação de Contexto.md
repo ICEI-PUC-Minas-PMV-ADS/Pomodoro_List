@@ -8,7 +8,6 @@ Vale observar que, ainda segundo a clínica VTM, para algumas pessoas, o tempo d
 
 Além da organização do tempo, segundo o professor e psicólogo Rob Rosenthal (2022 ), outra forma de contribuir para uma melhor produtividade de pessoas com TDAH é através do sistema de organização e priorização. Um sistema organizacional simples fornece uma maneira de rastrear atividades, promovendo uma lista de tarefas atualizadas regularmente.
 
-
 ## Problema
 
 Dificuldade em organizar tarefas diárias, dificuldade para adquirir novos hábitos,
@@ -20,26 +19,13 @@ Organizar tarefas diárias, estimular novos hábitos com incentivo da repetiçã
 
 ## Justificativa
 
-A procrastinação tem influência direta na saúde e qualidade de vida.
+A procrastinação tem influência direta na saúde e qualidade de vida. Isso ocorre porque, ao atrasar as atividades e não conseguir atender todas as demandas e compromissos, o indivíduo começa a se sentir mal, angustiado, sem energia e sobrecarregado. Esses sentimentos, por sua vez, podem provocar estresse e ansiedade, ocasionando quadros de depressão e outras doenças.
 
-Isso ocorre porque, ao atrasar as atividades e não conseguir atender todas as demandas e compromissos, o indivíduo começa a se sentir mal, angustiado, sem energia e sobrecarregado.
+A procrastinação tem vários efeitos sobre a vida pessoal: um deles é que as relações com os amigos e familiares pode ficar comprometida, uma vez que é comum o procrastinador não encontrar tempo ou não conseguir organizar a agenda para se fazer presente.
 
-Esses sentimentos, por sua vez, podem provocar estresse e ansiedade, ocasionando quadros de depressão e outras doenças.
+No ambiente profissional, os malefícios também são significativos: além de ficar mal visto pelos empregadores ou clientes por não cumprir os prazos combinados, o procrastinador afeta também a produtividade da equipe. 
 
-A procrastinação tem vários efeitos sobre a vida pessoal.
-
-Um deles é que as relações com os amigos e familiares pode ficar comprometida, uma vez que é comum o procrastinador não encontrar tempo ou não conseguir organizar a agenda para se fazer presente.
-
-No ambiente profissional, os malefícios também são significativos.
-
-Além de ficar mal visto pelos empregadores ou clientes por não cumprir os prazos combinados, o procrastinador afeta também a produtividade da equipe.
-
-A dificuldade de organizar o que precisamos realizar no nosso dia-a-dia, determinar metas e 
-estabelecer hábitos acaba fazendo com que a gente se sinta desmotivado e causando frustrações, por não ver objetivos sendo alcançados, porém gastando muita energia e esforço a todo tempo.
-Desta forma, é importante ter uma ferramenta que vai auxiliar a organizar seus objetivos, suas metas e que ainda possa te apoiar nessa execução.
-
-Fonte: PUC PR
-
+A dificuldade de organizar o que precisamos realizar no nosso dia-a-dia, determinar metas e estabelecer hábitos acaba fazendo com que a gente se sinta desmotivado e causando frustrações, por não ver objetivos sendo alcançados, porém gastando muita energia e esforço a todo tempo. Desta forma, é importante ter uma ferramenta que vai auxiliar a organizar seus objetivos, suas metas e que ainda possa te apoiar nessa execução.
 
 ## Público-Alvo
 
