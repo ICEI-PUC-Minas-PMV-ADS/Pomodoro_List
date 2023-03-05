@@ -1,22 +1,22 @@
-# POMODORO LIST
+# Pomodoro List
 
-`Tecnologia em Análise e Desenvolvimento de Sistema`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
+`Projeto: Desenvolvimento de uma Aplicação Móvel sobre um gerenciador de tarefas com método Pomodoro`
 
-`Eixo 3`
+`1º semestre de 2023 - Eixo 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Trata-se de uma aplicação móvel voltada para pessoas com dificuldade de organização de tarefas e concentração, em especial, quem possui TDAH. Essa aplicação terá um gestor de tarefas e um cronômetro cuja principal finalidade é a utilização do método pomodoro.
 
 ## Integrantes
 
+* Caroline Samara Araujo da Silva
+* Diego Victor Fraga
 * Igor Teixeira da Costa
-* Thiago Henrique Pinto da Silva
-* Caroline Araujo
+* Thaís Malta Boscatti
 * Thais Munhoz Carneiro
-* Vinicius Eduardo
-* Thais Malta Boscatti
-* Diego
+* Thiago henrique Silva
+* Vinícius Eduardo Silva Oliveira
 
 ## Orientador
 
