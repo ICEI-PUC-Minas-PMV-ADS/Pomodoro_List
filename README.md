@@ -10,10 +10,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Igor Teixeira da Costa
+* Thiago Henrique Pinto da Silva
+* Caroline Araujo
+* Thais Munhoz Carneiro
+* Vinicius Eduardo
+* Thais Malta Boscatti
+* Diego
 
 ## Orientador
 
