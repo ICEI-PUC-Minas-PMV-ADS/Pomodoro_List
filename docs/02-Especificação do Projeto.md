@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A determinação exata do problema, suas personas, requisitos funcionais e não-funcionais foram acordadas em reuniões online entre os membros da equipe. Foram reunidas informações e observações e, complementarmente. Os detalhes levantados nesse processo auxiliaram na construção de personas e histórias de usuários.
 
 ## Personas
 
@@ -28,17 +24,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Carlos Moreira    | Cronometrar o tempo gasto para executar tarefas.| Revisar os conteúdos da prova com mais facilidade.|
+|Carlos Moreira    | Ser notificado quando o tempo alocado para a execução de uma tarefa acabar.| Avançar para as próximas tarefas.  |
+|Mônica Ribeiro     | Ajustar o tempo gasto em cada tarefa.  | Ter tempo livre aos finais de semana. |
+|Ricardo Nunes     | Organizar e controlar tarefas por meio de listas   | Otimizar a entrega de trabalhos dentro do prazo. |
+|Ricardo Nunes     | Cadastrar um perfil e acessar regularmente, por meio de login, as informações da lista.| Acompanhar e controlar sua produtividade. |
+|Ângela Santos     | Marcar tarefas como concluídas.   | Controlar as tarefas cadastradas. |
+|Ângela Santos     | Excluir tarefas desnecessárias.   | Não se preocupar com uma tarefa que não precisa de ser cumprida. |
 
 ## Modelagem do Processo de Negócio 
 
@@ -77,47 +69,44 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001  | O software deve apresentar um cronômetro para o controle de tempo. | ALTA | 
+|RF-002  | O cronômetro deve possibilitar que o usuário ajuste o tempo no modo manual.   | ALTA |
+|RF-003  | O cronômetro deverá possibilitar que o usuário escolha os modos padrões de pomodoro (30 min de tarefa para 10 de descanso, ou 45 de tarefa para 15 de descanso).   | ALTA |
+|RF-004  | O software permitirá que o usuário crie uma lista e adicione tarefas.   | ALTA |
+|RF-005  | O software permitirá a marcação de tarefas realizadas.   | MÉDIA |
+|RF-006  | O software permitirá que as tarefas da lista sejam excluídas.   | ALTA |
+|RF-007  | O software permitirá que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
+|RF-008  | O software terá uma tela de login. | ALTA |
+|RF-009  | O software terá uma tela de cadastro.   | ALTA |
+|RF-010  | O software deverá notificar o usuário quando o tempo acabar.   | MÉDIA |
+|RF-011  | O site apresentará dicas de descanso e relaxamento.   | BAIXA |
+
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| A aplicação deve ser publicada em repositório público acessível na internet (Repl.it, GitHub Pages etc.).| ALTA | 
+|RNF-002| Uso de design responsivo nas interfaces gráficas para diferentes tipos de telas de celular, tablet e etc. |  ALTA | 
+|RNF-003| Será possível o ajuste de tempo das tarefas ou projetos conforme a necessidade do usuário.  | MÉDIA | 
+|RNF-004| O aplicativo deve ser compatível com os principais navegadores do mercado para mobile (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari) |  ALTA | 
+|RNF-005| O site não apresentará aos usuários quaisquer dados de cunho privativo e deverá atender às normas legais, tais como padrões LGPD e etc. | ALTA | 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01| O projeto necessita ser entregue até 26/06/2023, respeitando o prazo estipulado. |
+|RE-02| O projeto deve ser implementado com uso de tecnologias mobile, podendo fazer uso de bibliotecas que influenciam positivamente na qualidade do software.|
+|RE-03| O projeto se limita ao desenvolvimento mobile front-end utilizando as linguagens HTML, CSS, JavaScript e React, para que os usuários possam visualizar e interagir com o site na versão mobile.|
 
 ## Diagrama de Casos de Uso
 
