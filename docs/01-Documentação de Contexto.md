@@ -1,46 +1,46 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Segundo o Ministério da Saúde, o TDAH está relacionado a alterações no desenvolvimento que podem ocasionar um déficit no funcionamento pessoal, social, acadêmico ou profissional. Dentre os principais sintomas, estão: desatenção, hiperatividade, e impulsividade. Esse transtorno do neurodesenvolvimento, segundo a Associação Brasileira do Déficit de Atenção - ABDA (2020), afeta um pouco mais do que 5% da população mundial.
+
+O método pomodoro, é uma técnica que consiste em focar a concentração do usuário num intervalo mais longo, inicialmente com 30 minutos, depois com 45 minutos, seguindo um intervalo de 10 até 15 minutos, segundo a clínica especializada em Neuropsiquiatria e Neuromodulação - VTMNeurodiagnóstico (2020). Essa intermitência, permite treinar o cérebro para evitar momentos de distrações, como internet, whatsapp e etc, seguido de um período de elevada atenção durante o tempo de trabalho. Portanto, sendo indicado para pessoas com TDAH, além de pessoas com dificuldades de organização.
+
+Vale observar que, ainda segundo a clínica VTM, para algumas pessoas, o tempo de 45 minutos, inicialmente pode ser cansativo. Portanto, pode-se treinar com 10 minutos de tarefa para 2 de descanso, depois 15 de tarefa para 3 de descanso, 20 de tarefa para 5 de pausa, e assim por diante.
+
+Além da organização do tempo, segundo o professor e psicólogo Rob Rosenthal (2022 ), outra forma de contribuir para uma melhor produtividade de pessoas com TDAH é através do sistema de organização e priorização. Um sistema organizacional simples fornece uma maneira de rastrear atividades, promovendo uma lista de tarefas atualizadas regularmente.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dificuldade em organizar tarefas diárias, dificuldade para adquirir novos hábitos,
+organizar eventos e lembretes.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Organizar tarefas diárias, estimular novos hábitos com incentivo da repetição das tarefas e timer para lembretes.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A procrastinação tem influência direta na saúde e qualidade de vida.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Isso ocorre porque, ao atrasar as atividades e não conseguir atender todas as demandas e compromissos, o indivíduo começa a se sentir mal, angustiado, sem energia e sobrecarregado.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Esses sentimentos, por sua vez, podem provocar estresse e ansiedade, ocasionando quadros de depressão e outras doenças.
+
+A procrastinação tem vários efeitos sobre a vida pessoal.
+
+Um deles é que as relações com os amigos e familiares pode ficar comprometida, uma vez que é comum o procrastinador não encontrar tempo ou não conseguir organizar a agenda para se fazer presente.
+
+No ambiente profissional, os malefícios também são significativos.
+
+Além de ficar mal visto pelos empregadores ou clientes por não cumprir os prazos combinados, o procrastinador afeta também a produtividade da equipe.
+
+A dificuldade de organizar o que precisamos realizar no nosso dia-a-dia, determinar metas e 
+estabelecer hábitos acaba fazendo com que a gente se sinta desmotivado e causando frustrações, por não ver objetivos sendo alcançados, porém gastando muita energia e esforço a todo tempo.
+Desta forma, é importante ter uma ferramenta que vai auxiliar a organizar seus objetivos, suas metas e que ainda possa te apoiar nessa execução.
+
+Fonte: PUC PR
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Pessoas que queiram organizar seu tempo, lidar de uma maneira melhor com a procrastinação e aumentar sua produtividade de uma maneira sadia, otimizando o seu tempo disponível.
