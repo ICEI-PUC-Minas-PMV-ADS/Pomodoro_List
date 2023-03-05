@@ -128,17 +128,25 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+Observando o cronograma geral dos entregáveis do projeto, figura abaixo, junto aos requisitos, foi possível a criação de um plano de gestão que contempla a gestão de tempo e recursos que serão utilizados durante o projeto.
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+O prazo total para a entrega do projeto é até o dia 23/06/2023, assim seguindo o cronograma geral, foi possível elaborar uma tabela com os marcos de início e fim das tarefas planejadas, conforme abaixo:
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+|Projeto     | Início  |Fim |
+|-------|-------------------------|----|
+|Documentação com o Projeto| 20/02/23| 05/03/23 | 
+|Modelagem| 10/03/23 |  02/04/23 | 
+|Metodologia| 11/03/23  | 02/04/23 | 
+|Projeto Interface|12/03/23 |  02/04/23 | 
+|Funcionalidades| 23/03/23 | 02/04/23 |
+|Programação funcionalidades| 13/04/23 | 07/05/23 |
+|Testes de funcionalidades| 30/04/23 | 11/05/23 |
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+
 
 ## Gerenciamento de Equipe
 
