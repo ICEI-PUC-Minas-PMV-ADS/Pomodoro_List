@@ -146,7 +146,7 @@ O prazo total para a entrega do projeto é até o dia 23/06/2023, assim seguindo
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-
+![image](https://user-images.githubusercontent.com/100412134/222993378-5a1f08c5-30d5-4af9-b54c-825eda354d23.png)
 
 ## Gerenciamento de Equipe
 
