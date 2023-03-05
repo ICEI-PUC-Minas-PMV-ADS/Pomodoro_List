@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# POMODORO LIST
 
 `Tecnologia em Análise e Desenvolvimento de Sistema`
 
