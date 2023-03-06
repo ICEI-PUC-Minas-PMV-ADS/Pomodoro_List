@@ -145,6 +145,16 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
 
+Para gerenciamento do projeto, utilizaremos a metodologia ágil scrum. Nossa equipe está dividida da seguinte maneira:
+
+Vinícius Eduardo Silva Oliveira: Desenvolvedor<br>
+Thais Munhoz Carneiro: Project owner<br>
+Thaís Malta Boscatti: Desenvolvedor<br>
+Igor Teixeira da Costa: Scrum Master<br>
+Caroline Samara Araujo da Silva: Design e desenvolvedor<br>
+Thiago henrique Silva: Design e desenvolvedor<br>
+Diego Victor Fraga: Desenvolvedor<br>
+
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
