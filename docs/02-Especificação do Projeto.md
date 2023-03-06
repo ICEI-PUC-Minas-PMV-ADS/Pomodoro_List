@@ -101,8 +101,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-O diagrama de classes, ajuda a mapear o projeto, de forma clara e objetiva. Modelando os principais atributos, conexões, suas classes, operações e relações entre objetos.
-![image](https://user-images.githubusercontent.com/100412134/222993559-94110a55-ec51-4be8-9e62-733c5d11daff.png)
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
 # Matriz de Rastreabilidade
 
