@@ -20,7 +20,7 @@ Trata-se de uma aplicação móvel voltada para pessoas com dificuldade de organ
 
 ## Orientador
 
-* Nome completo do professor 1
+* Vitor Mangaravite
 
 ## Instruções de utilização
 
