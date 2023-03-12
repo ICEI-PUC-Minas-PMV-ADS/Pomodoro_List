@@ -60,6 +60,7 @@ Utilizamos o GitHub Projects para acompanhar andamento do projeto, a execução 
 
 No Github Projects, o quadro Kanban é atualizado após a realização de commits associados a tarefas nas sprints, demonstrado na imagem:
 
+![image](https://user-images.githubusercontent.com/100412134/224577856-a978ee26-6b35-428f-a52c-001fa3235b54.png)
 
 ### Ferramentas
 
