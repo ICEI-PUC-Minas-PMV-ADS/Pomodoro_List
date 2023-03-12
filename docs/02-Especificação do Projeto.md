@@ -63,7 +63,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
+|--------|-----------------------------------------|----|
 |RF-001  | O software deve apresentar um cronômetro para o controle de tempo. | ALTA | 
 |RF-002  | O cronômetro deve possibilitar que o usuário ajuste o tempo no modo manual.   | ALTA |
 |RF-003  | O cronômetro deve possibilitar que o usuário escolha os modos padrões de pomodoro (30 min de tarefa para 10 de descanso, ou 45 de tarefa para 15 de descanso).   | ALTA |
@@ -97,7 +97,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
-|--|-------------------------------------------------------|
+|-----|-------------------------------------------------------|
 |RE-01| O projeto necessita ser entregue até 26/06/2023, respeitando o prazo estipulado. |
 |RE-02| O projeto deve ser implementado com uso de tecnologias mobile, podendo fazer uso de bibliotecas que influenciam positivamente na qualidade do software.|
 |RE-03| O projeto se limita ao desenvolvimento mobile front-end utilizando as linguagens HTML, CSS, JavaScript e React, para que os usuários possam visualizar e interagir com o site na versão mobile.|
@@ -110,17 +110,11 @@ O diagrama de casos de uso, ajuda a mapear o projeto, de forma clara e objetiva.
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamentos entre requisitos funcionais e não funcionais e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos do projeto. Isto é, através da matriz conseguimos identificar quantos e quais são afetados por qualquer mudança no sistema e no desenvolvimento no escopo do projeto. 
+A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo uma visão ampla do escopo do projeto. 
 
 - Com ‘’X’’ estão os requisitos funcionais, não funcionais e o diagrama de classes 
 
 ![Exemplo de matriz de rastreabilidade](img/MATRIZ.png)
-
-## Siglas:
-
-- | RF-Requisitos Funcionais | RNF- Requisitos não Funcionais | DC-Diagrama de Classes |
-
-
 
 # Gerenciamento de Projeto
 
