@@ -150,13 +150,13 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 Para gerenciamento do projeto, utilizaremos a metodologia ágil scrum. Nossa equipe está dividida da seguinte maneira:
 
-Vinícius Eduardo Silva Oliveira: Desenvolvedor<br>
-Thais Munhoz Carneiro: Project owner<br>
-Thaís Malta Boscatti: Desenvolvedor<br>
-Igor Teixeira da Costa: Scrum Master<br>
-Caroline Samara Araujo da Silva: Design e desenvolvedor<br>
-Thiago henrique Silva: Design e desenvolvedor<br>
-Diego Victor Fraga: Desenvolvedor<br>
+- Vinícius Eduardo Silva Oliveira: Desenvolvedor<br>
+- Thais Munhoz Carneiro: Project owner<br>
+- Thaís Malta Boscatti: Desenvolvedor<br>
+- Igor Teixeira da Costa: Scrum Master<br>
+- Caroline Samara Araujo da Silva: Design e desenvolvedor<br>
+- Thiago henrique Silva: Design e desenvolvedor<br>
+- Diego Victor Fraga: Desenvolvedor<br>
 
 ## Gestão de Orçamento
 
