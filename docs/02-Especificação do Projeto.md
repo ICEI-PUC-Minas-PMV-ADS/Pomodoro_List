@@ -66,18 +66,18 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |--------|-----------------------------------------|----|
 |RF-001  | O software deve apresentar um cronômetro para o controle de tempo. | ALTA | 
 |RF-002  | O cronômetro deve possibilitar que o usuário ajuste o tempo no modo manual.   | ALTA |
-|RF-003  | O cronômetro deve possibilitar que o usuário escolha os modos padrões de pomodoro (30 min de tarefa para 10 de descanso, ou 45 de tarefa para 15 de descanso).   | ALTA |
-|RF-004  | O software deve permitir que o usuário crie uma lista para adicionar tarefas.   | ALTA |
-|RF-005  | O software deve permitir que o usuário crie uma tarefa.   | ALTA |
-|RF-006  | O software deve permitir que o usuário edite uma lista.   | ALTA |
-|RF-007  | O software deve permitir que o usuário edite uma tarefa.   | ALTA |
-|RF-008  | O software deve permitir que o usuário realize a marcação de tarefas realizadas.   | MÉDIA |
-|RF-009  | O software deve permitir que as tarefas da lista sejam excluídas.   | ALTA |
-|RF-010  | O software deve permitir que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
-|RF-011  | O software deve ter uma tela de login. | ALTA |
-|RF-012  | O software deve ter uma tela de cadastro.   | ALTA |
-|RF-013  | O software deve notificar o usuário quando o tempo do cronômetro acabar.   | MÉDIA |
-|RF-014  | O site deve apresentar dicas de descanso e relaxamento.   | BAIXA |
+|RF-003  | O software deve permitir que o usuário crie uma lista para adicionar tarefas.   | ALTA |
+|RF-004  | O software deve permitir que o usuário crie uma tarefa.   | ALTA |
+|RF-005  | O software deve permitir que o usuário edite uma lista.   | ALTA |
+|RF-006  | O software deve permitir que o usuário edite uma tarefa.   | ALTA |
+|RF-007  | O software deve permitir que o usuário realize a marcação de tarefas realizadas e adicione tempo para sua execução.   | MÉDIA |
+|RF-008  | O software deve permitir que as tarefas da lista sejam excluídas.   | ALTA |
+|RF-009  | O software deve permitir que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
+|RF-010  | O software deve ter uma tela de login. | ALTA |
+|RF-011  | O software deve ter uma tela de cadastro.   | ALTA |
+|RF-012  | O software deve notificar o usuário quando o tempo do cronômetro acabar.   | MÉDIA |
+|RF-013  | O software deve permitir que o usuário recupere a senha.   | ALTA |
+|RF-013  | O software deve ocutar a senha do usuário no momento do login.   | ALTA |
 
 
 ### Requisitos não Funcionais
