@@ -47,12 +47,13 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+|# | Indicador | Objetivos |Descrição|Cálculo|Fonte|Perspectiva|
+|--| ----------| ----------|---------|-------|-----|----------|
+|01|Número de usuários cadastrados|Aumentar a taxa de crescimento do aplicativo|Avaliar quantos usuários novos cadastram-se por mês|Média do número de usuários cadastrados por mês|Banco de dados do projeto|Aumentar a taxa de crescimento em 10% ao mês| 
+|02|Número de desinstalações do aplicativo|Reduzir o número de desinstalações|Avaliar as mudanças necessárias para evitar futuras desinstalações|Média do número de desinstalações realizadas por mês|Dados fornecidos pela Playstore/AppleStore|Diminuir o número de desinstalações em 20%| 
+|03|Nota do Aplicativo|Aumentar a nota de satisfação do usuário|Verificar a nota exibida aos usuários|Calculada com base nas notas mais recentes|Dados fornecidos pela Playstore/AppleStore|Aumentar a nota para 5 estrelas| 
+|04|Análise da frequência de uso|Aumentar a frequência de uso|Gerar relatório da atividade diária dos usuários ativos|Número de tarefas criadas/editadas/concluídas por dia|Banco de dados do projeto|Aumentar o número de usuários ativos em 10%| 
+|05|Qualidade do aplicativo|Diminuir quantidade de falhas que o aplicativo apresentou|Analisar os indicadores de qualidade|Quantidade de falhas que o aplicativo apresentou por mês|Dados fornecidos pela Playstore/AppleStore|Corrigir e verificar as falhas| 
 
 ## Requisitos
 
