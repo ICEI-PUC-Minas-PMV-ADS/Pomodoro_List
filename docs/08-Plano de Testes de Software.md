@@ -61,7 +61,7 @@
 |	Requisito Associado 	| RF-013 - O software deve permitir que o usuário recupere a senha.|
 | Objetivo do Teste 	| Verificar se a recuperação de senha corresponde aos requisitos. |
 | Passos 	| - Acessar o aplicativo; <br> - Clicar em "Recuperar senha"; <br> - Preencher e enviar os dados.|
-|Critério de Êxito | O usuário recuperar a senha. |
+|Critério de Êxito | O usuário consegue recuperar a senha. |
 
 | **Caso de Teste** 	| **CT-10 – Ocultar Senha** 	|
 |-------	|---	|
