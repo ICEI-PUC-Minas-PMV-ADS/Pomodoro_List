@@ -44,7 +44,7 @@ O usuário não consegue acompanhar as tarefas que precisa realizar, seja pontua
 ### Processo Proposto 1 – Registro das tarefas no aplicativo Task-IT.
 O usuário cadastra, de forma simples, todas as suas tarefas de acordo com a necessidade, para que consiga se organizar e acompanhar suas demandas.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/main/docs/img/priorizacao_bpmn.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/priorizacao_bpmn.png)
 
 ### Processo Atual 2 – Dificuldade em executar uma tarefa por causa da duração.
 
