@@ -27,23 +27,33 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Lidar com as tarefas do dia a dia, assim como objetivos a serem alcançados, novas necessidades e coisas a serem resolvidas que sempre surgem está cada vez mais complicado.
+Fazer com que sonhos se tornem concretos, que tarefas se tornem hábitos, sem ser algo frustrante por desistir mais uma vez, tem sido algo cada dia mais difícil, em um mundo onde as coisas estão cada vez mais dinâmicas, com excesso de informação e mudança constante, tornando a organização e a conclusão do que se inicie cada vez mais desafiador.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Vemos a necessidade das pessoas terem a possibilidade de se organizar de forma fácil, sem que isso se torne mais uma obrigação que complique o seu dia. 
+Nossa proposta é um facilitador, com o uso mais simples possível, que vai auxiliar a ter uma visão ampla do seu dia, para que possa cada vez enxergar melhor e entender o que mais te importar e assim chegar onde quer. 
+Seja tendo novo hábito saudável, uma nova rotina de estudo, se organizando para ter tempo livre, o importante é apoiar e facilitar nas tarefas que fazem parte da vida.
 
-### Processo 1 – NOME DO PROCESSO
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+### Processo Atual 1 – Sem organização para tarefas a serem realizadas.
 
-![Processo 1](img/02-bpmn-proc1.png)
+O usuário não consegue acompanhar as tarefas que precisa realizar, seja pontualmente, ou frequentemente. 
 
-### Processo 2 – NOME DO PROCESSO
+### Processo Proposto 1 – Registro das tarefas no aplicativo Task-IT.
+O usuário cadastra, de forma simples, todas as suas tarefas de acordo com a necessidade, para que consiga se organizar e acompanhar suas demandas.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/main/docs/img/priorizacao_bpmn.png)
 
-![Processo 2](img/02-bpmn-proc2.png)
+### Processo Atual 2 – Dificuldade em executar uma tarefa por causa da duração.
+
+Tarefas de maior tempo de execução muitas vezes não são iniciadas por esse motivo, quando se pensa no tempo total, já existe um desânimo do usuário para não inicia-la.
+
+### Processo Proposto 2 – Fracionar o tempo para tarefas longas.
+Para esse tipo de tarefas, podemos realizar o método pomodoro, e assim fazer pequenas pausas para que se torne mais suave a execução e assim concluir todo o processo.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/Timer_bmpn.png)
 
 ## Indicadores de Desempenho
 
