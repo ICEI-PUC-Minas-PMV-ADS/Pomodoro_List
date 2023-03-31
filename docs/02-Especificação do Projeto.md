@@ -114,7 +114,7 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 - Com ‘’X’’ estão os requisitos funcionais, não funcionais e o diagrama de classes 
 
-![Exemplo de matriz de rastreabilidade](img/MATRIZ.png)
+![image](https://user-images.githubusercontent.com/100412134/228994590-93acae52-b178-43a8-92aa-43f7ed9b7663.png)
 
 # Gerenciamento de Projeto
 
