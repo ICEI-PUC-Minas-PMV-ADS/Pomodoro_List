@@ -4,6 +4,7 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontrado em aplicativos de uso padrão do nosso cotidiano.
 
 
 # 1.0 Tela Inicial
@@ -11,6 +12,10 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 
 # 2.0 Tela de Login
 ![tela de Login](img/tela_login.png)
+
+# 3.0 Tela de cadastro
+![tela de cadastro](img/cadastro.png)
+
 
 
 
