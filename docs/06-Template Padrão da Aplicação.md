@@ -16,6 +16,10 @@ Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontr
 # 3.0 Tela de cadastro
 ![tela de cadastro](img/cadastro.png)
 
+# 4.0 Tela Editar Perfil
+![tela de edição do perfil](img/editar_perfil.png)
+
+
 
 
 
