@@ -13,10 +13,6 @@ Diagrama de fluxo de uso para a interação do usuário com o aplicativo Task-IT
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/Fluxograma.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
