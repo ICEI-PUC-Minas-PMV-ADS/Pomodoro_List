@@ -22,6 +22,17 @@ Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontr
 # 5.0 Relógio-Pomodoro
 ![Relógio-Pomodoro](img/Rel%C3%B3gio-Pomodoro.png)
 
+# 6.0 Relógio-Cronômetro
+![Relógio-Cronômetro](img/Rel%C3%B3gio-Cron%C3%B4metro.png)
+
+# 7.0 Tarefas-Cronômetro
+![Tarefas-Cronômetro](img/Tarefas-Cron%C3%B4metro.png)
+
+# 8.0 Tarefas-Timer
+![Tarefas-Timer](img/Tarefas-Timer.png)
+
+# 9.0 Tarefas
+![Tarefas](img/tarefas.png)
 
 
 
