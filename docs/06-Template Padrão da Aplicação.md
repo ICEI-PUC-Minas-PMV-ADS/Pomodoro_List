@@ -5,6 +5,15 @@
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
 
+
+# 1.0 Tela Inicial
+![tela incial](img/tela_incial.png)
+
+# 2.0 Tela de Login
+![tela de Login](img/tela_login.png)
+
+
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
