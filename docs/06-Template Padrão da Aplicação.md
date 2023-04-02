@@ -19,13 +19,9 @@ Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontr
 # 4.0 Tela Editar Perfil
 ![tela de edição do perfil](img/editar_perfil.png)
 
+# 5.0 Relógio-Pomodoro
+![Relógio-Pomodoro](img/Rel%C3%B3gio-Pomodoro.png)
 
 
 
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
