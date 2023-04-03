@@ -35,7 +35,7 @@ Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontr
 ![Tarefas](img/tarefas.png)
 
 # 9.0 Adicionar Tarefas
-![Tarefas](img/addtarefas.png)
+![Tarefas](img/addtarefa.png.png)
 
 
 
