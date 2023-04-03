@@ -34,9 +34,23 @@ Por se tratar de uma aplicação mobile, adotamos um estilo visual muito encontr
 # 9.0 Tarefas
 ![Tarefas](img/tarefas.png)
 
-# 9.0 Adicionar Tarefas
+# 10.0 Adicionar Tarefas
 ![Tarefas](img/addtarefa.png.png)
 
+# 11.0 Tarefas adicionadas
+![Tarefas](img/tarefascadd.png)
+
+# 12.0 Esqueci a senha
+![Tarefas](img/esqueciasenha.png)
+
+# 13.0 Confirmação de cadastro
+![Tarefas](img/confirmacadastro.png)
+
+# 14.0 Confirmação de troca de senha
+![Tarefas](img/confirmtroca.png)
+
+# 15.0 Troca de senha
+![Tarefas](img/trocadesenha.png)
 
 
 
