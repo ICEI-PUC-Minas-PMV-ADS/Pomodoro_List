@@ -16,9 +16,8 @@ Diagrama de fluxo de uso para a interação do usuário com o aplicativo Task-IT
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/100178056/229307744-2cd40435-f88d-46be-afb6-1d561f8d2185.png)
+![image](https://user-images.githubusercontent.com/100178056/230529430-15dce3c3-7ddc-40d9-a8d3-135e942dd649.png)
 
 Para visualização do wireframe interativo, basta clicar no link abaixo:
 
-[
-https://www.figma.com/proto/zsCgiTM9aSSvKmrKHyVr32/Untitled?node-id=1-253&starting-point-node-id=1%3A7](https://www.figma.com/proto/zsCgiTM9aSSvKmrKHyVr32/Untitled?node-id=1-2&starting-point-node-id=1%3A7)](https://www.figma.com/proto/VXhuTgWfLplzvdu3HwxlG5/Template-Padr%C3%A3o-Final-2.0?node-id=1-7&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A7)
+https://www.figma.com/proto/VXhuTgWfLplzvdu3HwxlG5/Template-Padr%C3%A3o-Final-2.0?node-id=1-7&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A7
