@@ -75,8 +75,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |--------|-----------------------------------------|----|
-|RF-001  | O software deve apresentar um cronômetro para o controle de tempo. | ALTA | 
-|RF-002  | O cronômetro deve possibilitar que o usuário ajuste o tempo no modo manual para executar uma tarefa.   | ALTA |
+|RF-001  | O software deve apresentar um timer para o controle de tempo. | ALTA | 
+|RF-002  | O timer deve possibilitar que o usuário ajuste o tempo no modo manual para executar uma tarefa.   | ALTA |
 |RF-003  | O software deve permitir que o usuário crie uma lista para adicionar tarefas.   | ALTA |
 |RF-004  | O software deve permitir que o usuário crie uma tarefa.   | ALTA |
 |RF-005  | O software deve permitir que o usuário edite uma lista.   | ALTA |
@@ -86,7 +86,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-009  | O software deve permitir que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
 |RF-010  | O software deve ter uma tela de login. | ALTA |
 |RF-011  | O software deve ter uma tela de cadastro.   | ALTA |
-|RF-012  | O software deve notificar o usuário quando o tempo do cronômetro acabar.   | MÉDIA |
+|RF-012  | O software deve notificar o usuário quando o tempo do timer acabar.   | MÉDIA |
 |RF-013  | O software deve permitir que o usuário recupere a senha.   | ALTA |
 |RF-014  | O software deve ocutar a senha do usuário no momento do login.   | ALTA |
 
