@@ -1,17 +1,17 @@
 # Plano de Testes de Usabilidade
 
-| **Caso de Teste** 	| **CT-01 – Cronômetro** 	|
+| **Caso de Teste** 	| **CT-01 – Timer** 	|
 |-------	|---	|
-|	Requisito Associado 	| RF-001 - O software deve apresentar um cronômetro para o controle de tempo;<br>RF-002 - O cronômetro deve possibilitar que o usuário ajuste o tempo no modo manual.|
-| Objetivo do Teste 	| Verificar se o cronômetro funciona corretamente |
-| Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no cronômetro. |
-|Critério de Êxito | O usuário consegue cronometrar o tempo dedicado a uma tarefa e ser alertado quando o tempo definido por ele se esgotar. |
+|	Requisito Associado 	| RF-001 - O software deve apresentar um timer para o controle de tempo;<br>RF-002 - O timer deve possibilitar que o usuário ajuste o tempo no modo manual.|
+| Objetivo do Teste 	| Verificar se o timer funciona corretamente |
+| Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no timer. |
+|Critério de Êxito | O usuário consegue acompanhar o tempo dedicado a uma tarefa e ser alertado quando o tempo definido por ele se esgotar. |
 
 | **Caso de Teste** 	| **CT-02 – Alarme** 	|
 |-------	|---	|
-|	Requisito Associado 	| RF-012 - O software deve notificar o usuário quando o tempo do cronômetro acabar.|
+|	Requisito Associado 	| RF-012 - O software deve notificar o usuário quando o tempo do timer acabar.|
 | Objetivo do Teste 	| Verificar se o alarme soa quando o tempo estabelecido acabar. |
-| Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no cronômetro;<br> - Receber um alerta quando o tempo acabar. |
+| Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no timer;<br> - Receber um alerta quando o tempo acabar. |
 |Critério de Êxito | O usuário consegue ser alertado quando o tempo definido por ele se esgotar. |
 
 | **Caso de Teste** 	| **CT-03 – Adicionar Lista/Tarefa** 	|
