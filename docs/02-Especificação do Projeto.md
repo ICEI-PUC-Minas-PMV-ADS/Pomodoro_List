@@ -36,6 +36,7 @@ Vemos a necessidade das pessoas terem a possibilidade de se organizar de forma f
 Nossa proposta é um facilitador, com o uso mais simples possível, que vai auxiliar a ter uma visão ampla do seu dia, para que possa cada vez enxergar melhor e entender o que mais te importar e assim chegar onde quer. 
 Seja tendo novo hábito saudável, uma nova rotina de estudo, se organizando para ter tempo livre, o importante é apoiar e facilitar nas tarefas que fazem parte da vida.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/V02_Diagrama_fluxo_as_is.png?raw=true)
 
 ### Processo Atual 1 – Sem organização para tarefas a serem realizadas.
 
@@ -44,7 +45,7 @@ O usuário não consegue acompanhar as tarefas que precisa realizar, seja pontua
 ### Processo Proposto 1 – Registro das tarefas no aplicativo Task-IT.
 O usuário cadastra, de forma simples, todas as suas tarefas de acordo com a necessidade, para que consiga se organizar e acompanhar suas demandas.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/priorizacao_bpmn.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/V02_diagrama_fluxo_to_be.png?raw=true)
 
 ### Processo Atual 2 – Dificuldade em executar uma tarefa por causa da duração.
 
@@ -53,7 +54,7 @@ Tarefas de maior tempo de execução muitas vezes não são iniciadas por esse m
 ### Processo Proposto 2 – Fracionar o tempo para tarefas longas.
 Para esse tipo de tarefas, podemos realizar o método pomodoro, e assim fazer pequenas pausas para que se torne mais suave a execução e assim concluir todo o processo.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/Timer_bmpn.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/V02_diagrama_fluxo_to_be_02.png?raw=true)
 
 ## Indicadores de Desempenho
 
