@@ -12,6 +12,7 @@ export default function Tarefa(){
     const [task, setTask] = useState([]);
     const [newTask, setNewTask]= useState('');
 
+// função de async-storage não esta funcionando 100% ainda
     async function addTask(){
         const search = task.filter(task => task === newTask)
         if(newTask === ''){
@@ -63,6 +64,8 @@ async function salvaDados() {
 }
 salvaDados();
     }, [task]);
+
+    // função do aplicativo flatlist funcional
    
 return(
     <>
