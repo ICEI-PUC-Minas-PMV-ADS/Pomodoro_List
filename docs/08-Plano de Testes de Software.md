@@ -10,7 +10,7 @@
 | **Caso de Teste** 	| **CT-02 – Criar Tarefas** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-004 - O software deve permitir que o usuário crie uma tarefa.|
-| Objetivo do Teste 	| Verificar se a criação de tarefas correspondem aos requisitos. |
+| Objetivo do Teste 	| Verificar se a criação de tarefas seguem um padrão especificado. |
 | Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre o ícone de criar tarefas; <br> - Criar uma tarefa. |
 |Critério de Êxito | O usuário consegue criar uma nova tarefa. |
 
