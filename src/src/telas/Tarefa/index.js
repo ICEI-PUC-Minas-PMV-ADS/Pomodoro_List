@@ -124,7 +124,7 @@ return(
 const styles=StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: '#4F99FC',
        paddingHorizontal: 20 ,
        paddingVertical: 20,
        marginTop: 20
