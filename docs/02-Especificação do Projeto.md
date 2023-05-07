@@ -87,7 +87,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-009  | O software deve ter uma tela de login. | ALTA |
 |RF-010  | O software deve ter uma tela de cadastro.   | ALTA |
 |RF-011  | O software deve permitir que o usuário recupere a senha.   | MÉDIA |
-|RF-012  | O software deve ocutar a senha do usuário no momento do login.   | ALTA |
+|RF-012  | O software deve ocultar a senha do usuário no momento do login.   | ALTA |
 
 
 ### Requisitos não Funcionais
