@@ -1,0 +1,24 @@
+### USER
+GET http://localhost:3000/user
+
+
+### REGISTER 
+POST http://localhost:3000/register
+content-type: application/json
+
+{
+  "name": "Maria de Oliveira",
+  "email": "maria@gmail.com",
+  "password": 123456,
+  "phone": 31900001111,
+  
+}
+
+### LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "name": "Maria de Oliveira",
+  "email": "maria@gmail.com"
+}

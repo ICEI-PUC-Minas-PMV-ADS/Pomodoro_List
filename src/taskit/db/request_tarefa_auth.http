@@ -1,0 +1,47 @@
+@TOKEN=TOKEN_KEY
+### LOGIN
+POST http://localhost:3000/login
+content-type: application/json
+
+{
+  "name": "Maria de Oliveira",
+  "email": "maria@gmail.com"
+}
+
+
+### GASTOS
+GET http://localhost:3000/660/tarefa
+Authorization: Bearer {{TOKEN}}
+
+### CREATE
+POST http://localhost:3000/660/tarefa
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+  "nome": "Limpar os quartos",
+  "data": "05/01/2022",
+  "recorrencia": 7.0,
+  "timer": 20.00
+}
+
+### UPDATE
+PUT http://localhost:3000/660/tarefa/3
+content-type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+  "nome": "Limpar os banheiros",
+  "data": "05/01/2022",
+  "recorrencia": 7.0,
+  "timer": 20.00
+}
+
+
+### GET GASTO
+GET http://localhost:3000/660/tarefa/3
+Authorization: Bearer {{TOKEN}}
+
+### DELETE GASTO
+DELETE http://localhost:3000/660/tarefa/3
+Authorization: Bearer {{TOKEN}}

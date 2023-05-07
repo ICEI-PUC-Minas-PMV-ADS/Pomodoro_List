@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "email": "maria@gmail.com",
+      "password": "$2a$10$ZrvyGmgu76SjkoJHRt/H/uhmrM1lsFzQJxlkwzvHfQLeom1WRyDRK",
+      "name": "Maria",
+      "phone": "31900000000",
+      "id": 1
+    },
+    {
+      "email": "ana@gmail.com",
+      "password": "$2a$10$Jf85cqPi5jQfyCt1ueUNie030fDqLiPTqS2x7oOUbSMml8N4ADy6C",
+      "name": "Ana",
+      "phone": "31900000000",
+      "id": 2
+    },
+    {
+      "email": "olga@gmail.com",
+      "password": "$2a$10$Jklpv5OL2XzT8xE/fGnhZuunDbIOwdMHLNc4KzPY1onCXRtBu9ltu",
+      "name": "Olga",
+      "phone": "31911111111",
+      "id": 3
+    }
+  ],
+  "register": [],
+  "tarefa": [
+    {
+      "id": 1,
+      "nome": "Estudar para a prova",
+      "data": "01/01/2022",
+      "recorrencia": 7,
+      "timer": 30
+    },
+    {
+      "id": 2,
+      "nome": "Fazer as compras da semana",
+      "data": "10/01/2022",
+      "recorrencia": 15,
+      "timer": 25
+    }
+  ]
+}
