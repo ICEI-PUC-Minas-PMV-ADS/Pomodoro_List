@@ -80,13 +80,13 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-002  | O timer deve possibilitar que o usuário ajuste o tempo no modo manual para executar uma tarefa.   | MÉDIA |
 |RF-003  | O software deve notificar o usuário quando o tempo do timer acabar.   | MÉDIA |
 |RF-004  | O software deve permitir que o usuário crie uma tarefa.   | ALTA |
-|RF-005  | O software deve permitir que o usuário edite uma tarefa.   | ALTA |
+|RF-005  | O software deve permitir que o usuário edite uma tarefa.   | MÉDIA |
 |RF-006  | O software deve permitir que o usuário realize a marcação de tarefas realizadas.   | MÉDIA |
 |RF-007  | O software deve permitir que o usuário exclua uma tarefa.   | ALTA |
 |RF-008  | O software deve permitir que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
 |RF-009  | O software deve ter uma tela de login. | ALTA |
 |RF-010  | O software deve ter uma tela de cadastro.   | ALTA |
-|RF-011  | O software deve permitir que o usuário recupere a senha.   | ALTA |
+|RF-011  | O software deve permitir que o usuário recupere a senha.   | MÉDIA |
 |RF-012  | O software deve ocutar a senha do usuário no momento do login.   | ALTA |
 
 
@@ -123,7 +123,7 @@ A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualizaç
 
 - Com ‘’X’’ estão os requisitos funcionais, não funcionais e o diagrama de classes 
 
-![image](https://user-images.githubusercontent.com/100412134/228994590-93acae52-b178-43a8-92aa-43f7ed9b7663.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/Matriz.png)
 
 # Gerenciamento de Projeto
 
