@@ -12,9 +12,9 @@ export default function Welcome (){
     <View style={styles.container}> 
         <View style={styles.containerLogo}>
             <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/imglogo.png')}
             style={{width: '100%'}}
-            resizeMode='contain'
+            resizeMode='center'
             />
         </View>
 
@@ -27,11 +27,11 @@ export default function Welcome (){
      
         </View>    
 
-        <View style={styles.containerForm}> 
-        <TouchableOpacity style={styles.button}
+        <View style={styles.botao}> 
+        <TouchableOpacity style={styles.buttonC}
         onPress={() => navigation.navigate('Cadastrar')}
         >
-        <Text style={styles.buttonText}> Cadastre-se!</Text>
+        <Text style={styles.buttonText}> Cadastre-se</Text>
         </TouchableOpacity>            
         </View>            
         
@@ -43,7 +43,7 @@ export default function Welcome (){
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFF'
+        backgroundColor:'#4F99FC'
 
     },
         containerLogo:{
@@ -53,24 +53,42 @@ const styles = StyleSheet.create({
     },
     containerForm:{
         flex:1,
-        backgroundColor:'#FFFFFF',
+        backgroundColor:'#4F99FC',
         paddingStart: '5%',
         paddingEnd: '5%',
     },
     button:{
         position:'absolute',
-        backgroundColor: '#666666',
-        borderRadius: 50,
-        paddingVertical:8,
-        width: '60%',
+        backgroundColor: 'white',
+        borderRadius: 20,
+        paddingVertical:20,
+        width: '50%',
         alignSelf:'center',
-        bottom:'60%',
+        bottom:'50%',
         justifyContent: 'center',
-        alignItems:'center'
+        alignItems:'center',
     },
     buttonText:{
         fontSize: 18,
-        color: '#FFFFFF',
-        fontWeight: 'bold'
+        color: 'black',
+        fontWeight: 'bold',
+    },
+    botao:{
+        flex: 1,
+        backgroundColor:'#4F99FC',
+        paddingStart: '5%',
+        paddingEnd: '5%'
+    },
+    buttonC:{
+        position:'relative',
+        backgroundColor: 'white',
+        borderRadius: 20,
+        paddingVertical:20,
+        width: '50%',
+        alignSelf:'center',
+        bottom:'50%',
+        bottom: 40,
+        alignItems:'center',
+        
     }
 })

@@ -1,20 +1,34 @@
 import React from 'react';
 
-import { SafeAreaView, View, StatusBar, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
+import { SafeAreaView, StatusBar, Text, StyleSheet, View, TextInput, TouchableOpacity, Image, TouchableWithoutFeedback, Keyboard, KeyboardAvoidingView } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
+
+
+const DismissKeyboard = ({ children}) => (
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+
+        {children}
+    </TouchableWithoutFeedback>
+);
+
 
 
 export default function TrocaSenha (){
     const navigation = useNavigation();
 
     return (
+    <DismissKeyboard>
+    {/*<KeyboardAvoidingView
+    style={styles.container}
+    behavior="padding"
+    >*/}
     <View style={styles.container}> 
         <View style={styles.containerLogo}>
             <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/imglogo.png')}
             style={{width: '100%'}}
-            resizeMode='contain'
+            resizeMode='center'
             />
         </View>
         
@@ -35,13 +49,15 @@ export default function TrocaSenha (){
         
 
     </View>
+    
+    </DismissKeyboard>
     );
 }
 
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFFF'
+        backgroundColor:'#4F99FC'
     },
     input:{
         borderColor: '#e8e8e8',
@@ -54,7 +70,7 @@ const styles = StyleSheet.create({
     },
     containerForm:{
         flex:1,
-        backgroundColor:'#FFFFFF',
+        backgroundColor:'#4F99FC',
         paddingStart: '5%',
         paddingEnd: '5%',
     },
@@ -62,27 +78,29 @@ const styles = StyleSheet.create({
         flex:0.2,
         justifyContent: 'center',
         alignItems:'center',
-        backgroundColor:'#FFFFFFF'
+        backgroundColor:'#4F99FC'
     },
     button:{
-        position:'absolute',
-        backgroundColor: '#666666',
+        position:'relative',
+        backgroundColor: 'white',
         borderRadius: 50,
         paddingVertical:8,
         width: '60%',
         alignSelf:'center',
-        top:'20%',
+        top:'10%',
         justifyContent: 'center',
         alignItems:'center'
     },
     buttonText:{
         fontSize: 18,
-        color: '#FFFFFF',
-        fontWeight: 'bold'
+        color: 'black',
+        fontWeight: 'bold',
+        
     },
     title:{
         marginTop: 28,
         marginBottom: 12,
-        fontSize: 16
+        fontSize: 16,
+        color: 'white'
     }
 })

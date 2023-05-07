@@ -1,21 +1,31 @@
 import React from 'react';
 
-import { SafeAreaView, StatusBar, Text, StyleSheet, View, TextInput, TouchableOpacity, Image } from 'react-native';
+import { SafeAreaView, StatusBar, Text, StyleSheet, View, TextInput, TouchableOpacity, Image, Keyboard, TouchableWithoutFeedback } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
+
+
+const DismissKeyboard = ({ children}) => (
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+
+        {children}
+    </TouchableWithoutFeedback>
+);
 
 export default function Entrar (){
 
     const navigation = useNavigation();
+    
 
     return (
+        <DismissKeyboard>
         <View style={styles.container}>
 
             <View style={styles.containerLogo}>
             <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/imglogo.png')}
             style={{width: '100%'}}
-            resizeMode='contain'
+            resizeMode= 'center'
             />
             </View>
 
@@ -30,6 +40,9 @@ export default function Entrar (){
             <TextInput
             placeholder="Sua senha"
             style={styles.input}
+                      
+            secureTextEntry={true}
+            
             />
 
             <Text style={styles.senhaText}
@@ -40,66 +53,110 @@ export default function Entrar (){
             </Text>
             
 
+            
+
+           </View> 
+           
+           
+
+
+           <View>
+            <TouchableOpacity style={styles.buttonV}
+            onPress={() => navigation.navigate('Welcome')}
+            >
+            <Text style={styles.buttonText}>Voltar</Text>
+            
+            </TouchableOpacity>
+            </View>
+            <View>
             <TouchableOpacity style={styles.button}
             onPress={() => navigation.navigate('Tarefa')}
             >
-            <Text style={styles.buttonText}> Continuar</Text>
+            <Text style={styles.buttonText}>Continuar</Text>
+            
             </TouchableOpacity>
-           </View> 
+            </View>
 
         </View>
+        </DismissKeyboard>
     );
 }
+
+
 
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFF'
+        backgroundColor:'#4F99FC'
 
     },
         containerLogo:{
         flex: 0.2,
         justifyContent: 'center',
-        alignItems:'center'
+        alignItems:'center',
     },
     containerForm:{
         flex:1,
-        backgroundColor:'#FFFFFF',
-        paddingStart: '5%',
-        paddingEnd: '5%',
+        backgroundColor:'#4F99FC',
+        paddingStart: '15%',
+        paddingEnd: '15%',
     },
     senhaText:{
         marginTop: 28,
         marginBottom: 12,
         fontSize: 14,
-        alignSelf:'center'
+        alignSelf:'center',
+        marginLeft: 150,
+        marginTop: 15,
+        color: 'white'
     },
     title:{
         marginTop: 28,
-        marginBottom: 12,
-        fontSize: 16
+        marginBottom: 1,
+        fontSize: 16,
+        color: 'white',
+        
     },
     input:{
         borderColor: '#e8e8e8',
-        borderWidth: 1,
-        borderRadius:5,
-        height: 40,
+        borderWidth: 3,
+        borderRadius:10,
+        height: 50,
         marginBottom: 4,
         paddingHorizontal: 10,
         fontSize: 16
     },
     button:{
-        backgroundColor: '#666666',
-        borderRadius: 4,
-        paddingVertical: 8,
-        width: '100%',
+        position:'relative',
+        backgroundColor: 'white',
+        borderRadius: 50,
+        paddingVertical:8,
+        width: '40%',
+        alignSelf: 'center',
+        bottom: 73,
         justifyContent: 'center',
         alignItems:'center',
-        marginTop: 14
+        left: 105,
+    
     },
+    buttonV:{
+        position:'absolute',
+        backgroundColor: 'white',
+        borderRadius: 50,
+        paddingVertical:8,
+        width: '40%',
+        alignSelf:'center',   
+        justifyContent: 'center',
+        alignItems:'center',
+        right: 215,
+        bottom: 30, 
+    },
+    
     buttonText:{
         fontSize: 18,
-        color: '#FFFFFF',
-        fontWeight: 'bold'
-    }
+        color: 'black',
+        fontWeight: 'bold',
+        backgroundColor: 'white',
+        
+    },
 })

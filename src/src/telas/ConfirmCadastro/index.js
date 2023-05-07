@@ -12,14 +12,15 @@ export default function ConfirmCadastro (){
     <View style={styles.container}> 
         <View style={styles.containerLogo}>
             <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/imglogo.png')}
             style={{width: '100%'}}
-            resizeMode='contain'
+            resizeMode='center'
             />
         </View>
         
         <View style={styles.containerForm}> 
-        <Text style={styles.title}>Digite o código enviado para o e-mail ou telefone cadastrado:</Text>
+        <Text style={styles.title}>Digite o código enviado para o {'\n'}
+        e-mail ou telefone cadastrado:</Text>
         <TextInput
             placeholder="Digite seu e-mail"
             style={styles.input}
@@ -40,7 +41,7 @@ export default function ConfirmCadastro (){
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFF'
+        backgroundColor:'#4F99FC'
 
     },
         containerLogo:{
@@ -50,30 +51,33 @@ const styles = StyleSheet.create({
     },
     containerForm:{
         flex:1,
-        backgroundColor:'#FFFFFF',
+        backgroundColor:'#4F99FC',
         paddingStart: '5%',
         paddingEnd: '5%',
     },
     button:{
-        position:'absolute',
-        backgroundColor: '#666666',
+        position:'relative',
+        backgroundColor: 'white',
         borderRadius: 50,
         paddingVertical:8,
         width: '60%',
         alignSelf:'center',
-        top:'25%',
+        top:'10%',
         justifyContent: 'center',
-        alignItems:'center'
+        alignItems:'center',
+        
     },
     buttonText:{
         fontSize: 18,
-        color: '#FFFFFF',
+        color: 'black',
         fontWeight: 'bold'
     },
     title:{
+        color: 'white',
         marginTop: 28,
-        marginBottom: 12,
-        fontSize: 16
+        marginBottom: 30,
+        fontSize: 20,
+        marginLeft: 40,
     },
     input:{
         borderColor: '#e8e8e8',
@@ -82,7 +86,8 @@ const styles = StyleSheet.create({
         height: 40,
         marginBottom: 4,
         paddingHorizontal: 10,
-        fontSize: 16
+        fontSize: 16,
+        marginTop:15,
     }
 
 })

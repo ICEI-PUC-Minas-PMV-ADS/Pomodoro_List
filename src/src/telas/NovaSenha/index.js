@@ -1,20 +1,32 @@
 import React from 'react';
 
-import { SafeAreaView, View, StatusBar, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
+import { SafeAreaView, StatusBar, Text, StyleSheet, View, TextInput, TouchableOpacity, Image, TouchableWithoutFeedback, Keyboard, KeyboardAvoidingView } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
+
+
+
+const DismissKeyboard = ({ children}) => (
+    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+
+        {children}
+    </TouchableWithoutFeedback>
+);
+
+
 
 
 export default function NovaSenha (){
     const navigation = useNavigation();
 
     return (
+    <DismissKeyboard>
     <View style={styles.container}> 
         <View style={styles.containerLogo}>
             <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/imglogo.png')}
             style={{width: '100%'}}
-            resizeMode='contain'
+            resizeMode='center'
             />
         </View>
         
@@ -22,36 +34,39 @@ export default function NovaSenha (){
         
         <Text style={styles.title}>Senha:</Text>
             <TextInput
-            placeholder="Telefone ou E-mail"
+            placeholder="Digite sua senha"
+            secureTextEntry={true}
             style={styles.input}
             />
 
            <Text style={styles.title}>Confirmar Senha:</Text>
            <TextInput
-            placeholder="Telefone ou E-mail"
+            placeholder="Digite sua senha"
+            secureTextEntry={true}
             style={styles.input}
             />
             
         <TouchableOpacity style={styles.button}
         onPress={() => navigation.navigate('Entrar')}
         >
-        <Text style={styles.buttonText}> Continuar</Text>
+        <Text style={styles.buttonText}>Continuar</Text>
         </TouchableOpacity>            
         </View>            
         
 
     </View>
+    </DismissKeyboard>
     );
 }
 
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor:'#FFFFFFF'
+        backgroundColor:'#4F99FC'
     },
     containerForm:{
         flex:1,
-        backgroundColor:'#FFFFFF',
+        backgroundColor:'#4F99FC',
         paddingStart: '5%',
         paddingEnd: '5%',
     },
@@ -71,20 +86,20 @@ const styles = StyleSheet.create({
         backgroundColor:'#FFFFFFF'
     },
     button:{
-        position:'absolute',
-        backgroundColor: '#666666',
+        position:'relative',
+        backgroundColor: 'white',
         borderRadius: 50,
         paddingVertical:8,
         width: '60%',
         alignSelf:'center',
-        top:'40%',
+        top:'10%',
         justifyContent: 'center',
         alignItems:'center'
     },
     buttonText:{
         fontSize: 18,
-        color: '#FFFFFF',
-        fontWeight: 'bold'
+        color: 'black',
+        fontWeight: 'bold',
     },
     title:{
         marginTop: 28,
