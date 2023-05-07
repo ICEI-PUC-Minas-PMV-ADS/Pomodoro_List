@@ -141,10 +141,10 @@ return(
 const styles=StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: 'white',
+        backgroundColor: '#4F99FC',
         paddingHorizontal: 20 ,
         paddingVertical: 20,
-        marginTop: 20,
+        marginTop: 0,
     
     },
     Body: {
@@ -191,7 +191,7 @@ flex: 1,
         marginBottom:15,
         padding:15,
         borderRadius:4,
-        backgroundColor:'#eee',
+        backgroundColor:'white',
         display:'flex',
         allignItens:'center',
         justifyContent:'space-between',
@@ -212,7 +212,7 @@ flex: 1,
         flex: 0.2,
         justifyContent: 'center',
         alignItems:'center',
-        backgroundColor: 'white',
+        backgroundColor: '#4F99FC',
     },
    
 });
