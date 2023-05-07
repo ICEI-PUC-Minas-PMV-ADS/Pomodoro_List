@@ -9,7 +9,7 @@ import ConfirmCadastro from './telas/ConfirmCadastro';
 import Tarefa from './telas/Tarefa';
 import TrocaSenha from './telas/TrocaSenha';
 import NovaSenha from './telas/NovaSenha';
-import App from './telas/Cronometro';
+
 
 const Stack = createNativeStackNavigator();
 
