@@ -11,9 +11,9 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre o ícone de criar tarefas; <br> - Criar uma tarefa. |
 |Critério de Êxito | O usuário consegue criar uma nova tarefa. |
 
-![Inserir_tarefa][image](https://user-images.githubusercontent.com/101607336/236715725-bd76cf16-af24-422d-aba0-9834b48f78ce.png)
+![Inserir_tarefa](https://user-images.githubusercontent.com/101607336/236715725-bd76cf16-af24-422d-aba0-9834b48f78ce.png)
 
-![inserir_tarefa_ok][image](https://user-images.githubusercontent.com/101607336/236715833-c26f945b-2fdf-47cb-a05b-715048feb715.png)
+![inserir_tarefa_ok](https://user-images.githubusercontent.com/101607336/236715833-c26f945b-2fdf-47cb-a05b-715048feb715.png)
 
 
 | **Caso de Teste** 	| **CT-05 – Exluir tarefas** 	|
