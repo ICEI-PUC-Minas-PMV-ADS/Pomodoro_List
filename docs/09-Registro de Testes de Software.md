@@ -11,8 +11,9 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre o ícone de criar tarefas; <br> - Criar uma tarefa. |
 |Critério de Êxito | O usuário consegue criar uma nova tarefa. |
 
-![Insercao1](https://user-images.githubusercontent.com/101607336/236710931-4f1751d3-99a9-46e5-a9eb-9289a9adf77f.png)
-![teste1](https://user-images.githubusercontent.com/101607336/236710975-e88f6c93-2c40-4a95-a71d-44b27cd72f75.png)
+![Inserir_tarefa][image](https://user-images.githubusercontent.com/101607336/236715725-bd76cf16-af24-422d-aba0-9834b48f78ce.png)
+
+![inserir_tarefa_ok][image](https://user-images.githubusercontent.com/101607336/236715833-c26f945b-2fdf-47cb-a05b-715048feb715.png)
 
 
 | **Caso de Teste** 	| **CT-05 – Exluir tarefas** 	|
@@ -22,8 +23,10 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa; <br> - Clicar sobre o ícone correspondente a função de exclusão.|
 |Critério de Êxito | O usuário excluir uma tarefa. |
 
-![teste1](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/teste1.jpeg?raw=true)
-![teste2](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/teste3.jpeg?raw=true)
+![deletar_tarefa](https://user-images.githubusercontent.com/101607336/236715918-cc14983e-8afa-4307-9ca3-9205034e0154.png)
+
+![deletar_tarefa_ok](https://user-images.githubusercontent.com/101607336/236716016-24fa5125-7835-437e-90c7-379b73f18bd3.png)
+
 
 | **Caso de Teste** 	| **CT-07 – Efetuar Login** 	|
 |-------	|---	|
@@ -32,8 +35,8 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Preencher os dados; <br> - Realizar o login.|
 |Critério de Êxito | O usuário realizar o login no aplicativo. |
 
-![ImagemDois](https://user-images.githubusercontent.com/100626035/236696138-ee8b93a9-8bb4-44ae-938e-d9e90b2b88f4.png)
-![ImagemUm](https://user-images.githubusercontent.com/100626035/236696140-c98d5667-ac22-4fa0-8af5-81afb0ef6ba6.png)
+![tela_login](https://user-images.githubusercontent.com/101607336/236716167-505c8a7a-8942-44dd-9cc1-407d38da9335.png)
+
 
 | **Caso de Teste** 	| **CT-08 – Efetuar Cadastro** 	|
 |-------	|---	|
@@ -42,8 +45,12 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Preencher os dados; <br> - Realizar o cadastro.|
 |Critério de Êxito | O usuário realizar o cadastro no aplicativo. |
 
-![ImagemTres](https://user-images.githubusercontent.com/100626035/236696137-29fd8c6c-aa0d-490b-96ac-295a7bcb0bf8.png)
-![ImagemQuatro](https://user-images.githubusercontent.com/100626035/236696139-bf6cfefb-e2b9-482f-b653-00866095ac3b.png)
+![tela_login_cadastro](https://user-images.githubusercontent.com/101607336/236716366-b1c71b98-85a4-48a4-8aa7-17f42f7a35b7.png)
+
+![tela_cadastro](https://user-images.githubusercontent.com/101607336/236716346-ba2c4f34-908f-480a-ae2e-2935cce0c2e8.png)
+
+![usuario_criado](https://user-images.githubusercontent.com/101607336/236716438-4dc9351f-6ea5-4560-9c86-b21968921a47.png)
+
 
 | **Caso de Teste** 	| **CT-10 – Ocultar Senha** 	|
 |-------	|---	|
@@ -52,6 +59,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Preencher os dados de login; <br> - Verificar se os caracteres da senha aparecem ocultos.|
 |Critério de Êxito | Os caracteres da senha aparecerem de forma oculta no momento do login. |
 
-![senha](https://user-images.githubusercontent.com/101607336/236714090-c216e81b-b84c-401d-ab73-9077b6253778.png)
+![senha_oculta](https://user-images.githubusercontent.com/101607336/236716483-924a2f96-4254-4521-83a0-8b06dce9e8d0.png)
+
 
 
