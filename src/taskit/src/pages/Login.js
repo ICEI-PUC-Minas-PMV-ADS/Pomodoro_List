@@ -9,6 +9,7 @@ import Input from '../components/Input';
 import{ useFonts, Montserrat_300Light} from '@expo-google-fonts/montserrat';
 import { useNavigation } from '@react-navigation/native';
 import {useUser} from '../contexts/UserContext';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {login} from '../services/auth.services';
 import Tarefa from './Tarefa';
@@ -33,7 +34,7 @@ const Login = () => {
         setSigned(true);
         setName(res.user.name);
         AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
-        
+        navigation.navigate('Tarefa'); 
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');
       }
