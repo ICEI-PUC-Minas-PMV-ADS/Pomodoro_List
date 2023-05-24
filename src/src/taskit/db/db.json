@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "maria@gmail.com",
-      "password": "$2a$10$ZrvyGmgu76SjkoJHRt/H/uhmrM1lsFzQJxlkwzvHfQLeom1WRyDRK",
+      "password": "$2a$10$WlUtfAhgtumfzwEt4rBuKu34CjtFqkssyDzuI6iEzEz3Y6v6CHhm6",
       "name": "Maria",
       "phone": "31900000000",
       "id": 1
@@ -20,6 +20,13 @@
       "name": "Olga",
       "phone": "31911111111",
       "id": 3
+    },
+    {
+      "email": "carlos@gmail.com",
+      "password": "$2a$10$/CEhS1M9Qr9Evl6BMjU/6.hdVLjNHHKx.It2Si4EI6rKcNf5K6pEu",
+      "name": "Carlos",
+      "phone": "31900003333",
+      "id": 4
     }
   ],
   "register": [],

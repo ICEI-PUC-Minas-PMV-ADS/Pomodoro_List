@@ -1,50 +1,47 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Alert, Image, Text } from 'react-native';
-import { TextInput, Button, Headline } from 'react-native-paper';
-//import Container from '../components/Container';
-//import Body from '../components/Body';
-import Input from '../components/Input';
-//import Logo from '../components/Logo';
-
+import { StyleSheet, View, Alert, Text, Image, TextInput} from 'react-native';
+import {Button, Headline } from 'react-native-paper';
+//import Input from '../components/Input';
 import { useNavigation } from '@react-navigation/native';
+import {useUser} from '../contexts/UserContext';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import TextField from '@mui/material/TextField';
 
-import {register} from '../services/auth.services';
+import {login} from '../services/auth.services';
+import Tarefa from './Tarefa';
+import TrocaSenha from './TrocaSenha';
+import Timer from './Timer';
 
-const Register = () => {
+const Login = () => {
 
   const navigation = useNavigation();
+  const {setSigned, setName} = useUser();
 
-  const [name, setName] = useState();
-  const [phone, setPhone] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
-  const handleRegister = () => {
+   const handleLogin= () => {
 
-    register({
-      name: name,
-      phone: phone,
+    login({
       email: email,
       password: password
     }).then( res => {
       console.log(res);
 
-      if(res){
-
-        Alert.alert('Atenção', 'Usuário Cadastrado com sucesso!',[
-          { text: "OK", onPress: () => navigation.goBack() }
-        ]);
-
+      if(res && res.user){
+        setSigned(true);
+        setName(res.user.name);
+        AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
+        navigation.navigate('Tarefa'); 
       }else{
-
-         Alert.alert('Atenção', 'Usuário não cadastrado! Tente novamente mais tarde.');
+         Alert.alert('Atenção', 'Usuário ou senha inválidos!');
       }
 
     });
     
   }
-
   return (
+
     <View style={styles.container}>
 
       <View style={styles.containerLogo}>
@@ -56,50 +53,52 @@ const Register = () => {
       </View>
 
       <View style={styles.containerForm}>
-      <Input
-          label="Nome"
-          value={name}
-          onChangeText={(text) => setName(text)}
-          keyboardType="default"
-          
-        />
-         <Input
-          label="Telefone"
-          value={phone}
-          onChangeText={(text) => setPhone(text)}
-          keyboardType="default"
-         />
-        <Input
+        
+        <TextField
+          style={styles.TextField}
           label="Email"
           value={email}
           onChangeText={(text) => setEmail(text)}
-          keyboardType="default"
+          
         />
-        
-        <Input
+        <TextField
+          style={styles.TextField}          
           label="Senha"
           value={password}
           secureTextEntry
           onChangeText={(text) => setPassword(text)}
-          keyboardType="default"
           
         />
-        
         <Button
           style={styles.button}
           mode="contained"
-          onPress={handleRegister}>
-          <Text style={styles.buttonText}> Cadastrar</Text>
+          onPress={handleLogin}>
+          <Text style={styles.buttonText}> Login</Text>
         </Button>
         <Button
           style={styles.button}
-          mode="outlined"
+          mode="contained"
+          onPress={() => navigation.navigate('TrocaSenha')}>
+          <Text style={styles.buttonText}> Esqueceu sua senha?</Text>
+        </Button>
+        <Button
+          style={styles.button}
+          mode="contained"
+          onPress={() => navigation.navigate('Timer')}>
+          <Text style={styles.buttonText}> Timer</Text>
+        </Button>
+        <Button
+          style={styles.button}
+          mode="contained"
           onPress={() => navigation.goBack()}>
           <Text style={styles.buttonText}> Voltar</Text>
         </Button>
       </View>
+        
     </View>
+
   );
+
 };
 
 const styles = StyleSheet.create({
@@ -133,16 +132,14 @@ containerForm:{
     backgroundColor:'#4682B4',
     paddingStart: '5%',
     paddingEnd: '5%',
+    paddingVertical: 5
 },
-input: {
-  borderColor: '#4682B4',
-  borderWidth: 1,
-  borderRadius: 4,
-  paddingVertical: 5,
+TextField: {
   marginBottom: 8,
+  paddingVertical: 5,
   backgroundColor: '#FFFFFF',
-  fontSize: 18
+  borderRadius: 4
 }
 });
 
-export default Register;
+export default Login;

@@ -4,7 +4,7 @@ import { Text, TextInput, Button, Headline } from 'react-native-paper';
 //import Container from '../components/Container';
 //import Body from '../components/Body';
 //import Input from '../components/Input';
-//import Logo from '../components/Logo';
+import Logo from '../assets/imglogo.png';
 
 import { useNavigation } from '@react-navigation/native';
 import { useUser } from '../contexts/UserContext';
@@ -19,8 +19,8 @@ const Home = () => {
 
       <View style={styles.containerLogo}>
         <Image
-          source={require('../assets/imglogo.png')}
-          style={{ width: 100 }}
+          source={require('../assets/imglogo.png').default}
+          style={{ width: 100, height: 100 }}
           resizeMode='contain'
         />
       </View>

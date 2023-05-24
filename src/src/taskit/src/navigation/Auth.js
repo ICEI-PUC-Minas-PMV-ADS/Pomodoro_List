@@ -4,9 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
 import Home from '../pages/Home';
-import NovaSenha from '../pages/NovaSenha';
 import TrocaSenha from '../pages/TrocaSenha';
-import ValidacaoSenha from '../pages/ValidacaoSenha';
+import Timer from '../pages/Timer';
 import Tarefa from '../pages/Tarefa';
 
 const Stack = createNativeStackNavigator();
@@ -37,14 +36,6 @@ const Main = () => {
       />
 
       <Stack.Screen
-        name="NovaSenha"
-        component={NovaSenha}
-        options={{
-          header: () => null,
-        }}
-      />
-
-      <Stack.Screen
         name="TrocaSenha"
         component={TrocaSenha}
         options={{
@@ -53,8 +44,8 @@ const Main = () => {
       />
 
       <Stack.Screen
-        name="ValidacaoSenha"
-        component={ValidacaoSenha}
+        name="Timer"
+        component={Timer}
         options={{
           header: () => null,
         }}
