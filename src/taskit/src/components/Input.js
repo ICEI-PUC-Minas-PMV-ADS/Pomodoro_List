@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
-//import TextField from '@mui/material/TextField';
 
 const Header = (props) => {
   return (
@@ -15,11 +14,11 @@ const Header = (props) => {
 const styles = StyleSheet.create({
   title: {
     //marginTop: 28,
-     borderRadius: 4,
+    borderRadius: 4,
     paddingVertical: 5,
     marginBottom: 8,
     fontSize: 18,
-    color: '#FFFFFFF'
+    color: '#4682B4'
   },
 
   input: {

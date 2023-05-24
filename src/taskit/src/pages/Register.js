@@ -1,47 +1,50 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Alert, Text, Image, TextInput} from 'react-native';
-import {Button, Headline } from 'react-native-paper';
-//import Input from '../components/Input';
+import { StyleSheet, View, Alert, Image, Text } from 'react-native';
+import { TextInput, Button, Headline } from 'react-native-paper';
+//import Container from '../components/Container';
+//import Body from '../components/Body';
+import Input from '../components/Input';
+//import Logo from '../components/Logo';
+
 import { useNavigation } from '@react-navigation/native';
-import {useUser} from '../contexts/UserContext';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import TextField from '@mui/material/TextField';
 
-import {login} from '../services/auth.services';
-import Tarefa from './Tarefa';
-import TrocaSenha from './TrocaSenha';
-import Timer from './Timer';
+import {register} from '../services/auth.services';
 
-const Login = () => {
+const Register = () => {
 
   const navigation = useNavigation();
-  const {setSigned, setName} = useUser();
 
+  const [name, setName] = useState();
+  const [phone, setPhone] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
-   const handleLogin= () => {
+  const handleRegister = () => {
 
-    login({
+    register({
+      name: name,
+      phone: phone,
       email: email,
       password: password
     }).then( res => {
       console.log(res);
 
-      if(res && res.user){
-        setSigned(true);
-        setName(res.user.name);
-        AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
-        navigation.navigate('Tarefa'); 
+      if(res){
+
+        Alert.alert('Atenção', 'Usuário Cadastrado com sucesso!',[
+          { text: "OK", onPress: () => navigation.goBack() }
+        ]);
+
       }else{
-         Alert.alert('Atenção', 'Usuário ou senha inválidos!');
+
+         Alert.alert('Atenção', 'Usuário não cadastrado! Tente novamente mais tarde.');
       }
 
     });
     
   }
-  return (
 
+  return (
     <View style={styles.container}>
 
       <View style={styles.containerLogo}>
@@ -53,52 +56,50 @@ const Login = () => {
       </View>
 
       <View style={styles.containerForm}>
-        
-        <TextField
-          style={styles.TextField}
+      <Input
+          label="Nome"
+          value={name}
+          onChangeText={(text) => setName(text)}
+          keyboardType="default"
+          
+        />
+         <Input
+          label="Telefone"
+          value={phone}
+          onChangeText={(text) => setPhone(text)}
+          keyboardType="default"
+         />
+        <Input
           label="Email"
           value={email}
           onChangeText={(text) => setEmail(text)}
-          
+          keyboardType="default"
         />
-        <TextField
-          style={styles.TextField}          
+        
+        <Input
           label="Senha"
           value={password}
           secureTextEntry
           onChangeText={(text) => setPassword(text)}
+          keyboardType="default"
           
         />
+        
         <Button
           style={styles.button}
           mode="contained"
-          onPress={handleLogin}>
-          <Text style={styles.buttonText}> Login</Text>
+          onPress={handleRegister}>
+          <Text style={styles.buttonText}> Cadastrar</Text>
         </Button>
         <Button
           style={styles.button}
-          mode="contained"
-          onPress={() => navigation.navigate('TrocaSenha')}>
-          <Text style={styles.buttonText}> Esqueceu sua senha?</Text>
-        </Button>
-        <Button
-          style={styles.button}
-          mode="contained"
-          onPress={() => navigation.navigate('Timer')}>
-          <Text style={styles.buttonText}> Timer</Text>
-        </Button>
-        <Button
-          style={styles.button}
-          mode="contained"
+          mode="outlined"
           onPress={() => navigation.goBack()}>
           <Text style={styles.buttonText}> Voltar</Text>
         </Button>
       </View>
-        
     </View>
-
   );
-
 };
 
 const styles = StyleSheet.create({
@@ -132,14 +133,16 @@ containerForm:{
     backgroundColor:'#4682B4',
     paddingStart: '5%',
     paddingEnd: '5%',
-    paddingVertical: 5
 },
-TextField: {
-  marginBottom: 8,
+input: {
+  borderColor: '#4682B4',
+  borderWidth: 1,
+  borderRadius: 4,
   paddingVertical: 5,
+  marginBottom: 8,
   backgroundColor: '#FFFFFF',
-  borderRadius: 4
+  fontSize: 18
 }
 });
 
-export default Login;
+export default Register;

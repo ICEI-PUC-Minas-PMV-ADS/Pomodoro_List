@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Alert, Text, Image } from 'react-native';
 import { TextInput, Button, Headline } from 'react-native-paper';
-import TextField from '@mui/material/TextField';
 
 import {VerificaEmail,login,requestPasswordReset} from '../services/auth.services';
 import { updatePassword } from '../services/senha.services';
@@ -51,8 +50,7 @@ const TrocaSenha = () => {
       <View style={styles.containerForm}>
 
         <Text style={styles.title}>Digite o e-mail cadastrado:</Text>
-        <TextField
-        style={styles.TextField}
+        <Input
           label="Email"
           value={email}
           onChangeText={(text) => setEmail(text)}
@@ -60,8 +58,7 @@ const TrocaSenha = () => {
         />
 
         <Text style={styles.title}>Digite a nova senha:</Text>
-        <TextField
-        style={styles.TextField}
+        <Input
           label="Digite a nova senha"
           value={password}
           secureTextEntry
@@ -69,8 +66,7 @@ const TrocaSenha = () => {
           keyboardType="default"
         />
          <Text style={styles.title}>Confirme sua senha:</Text>
-        <TextField
-        style={styles.TextField}
+        <Input
           label="Digite novamente a nova senha"
           value={confirmPassword}
           secureTextEntry

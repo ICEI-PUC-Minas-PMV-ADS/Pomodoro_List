@@ -4,9 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
+import Timer from '../pages/Timer';
 import TrocaSenha from '../pages/TrocaSenha';
 import Tarefa from '../pages/Tarefa';
-import Timer from '../pages/Timer';
 
 const Stack = createNativeStackNavigator();
 
@@ -43,13 +43,6 @@ const Main = () => {
         }}
       />
 
-<Stack.Screen
-        name="Timer"
-        component={Timer}
-        options={{
-          header: () => null,
-        }}
-      />
 
       <Stack.Screen
         name="TrocaSenha"

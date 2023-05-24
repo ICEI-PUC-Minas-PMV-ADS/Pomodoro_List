@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from '../pages/Login';
 import Register from '../pages/Register';
 import Home from '../pages/Home';
+
 import TrocaSenha from '../pages/TrocaSenha';
 import Timer from '../pages/Timer';
 import Tarefa from '../pages/Tarefa';
@@ -35,7 +36,7 @@ const Main = () => {
         }}
       />
 
-      <Stack.Screen
+            <Stack.Screen
         name="TrocaSenha"
         component={TrocaSenha}
         options={{

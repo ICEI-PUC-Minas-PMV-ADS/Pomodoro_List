@@ -87,7 +87,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-009  | O software deve ter uma tela de login. | ALTA |
 |RF-010  | O software deve ter uma tela de cadastro.   | ALTA |
 |RF-011  | O software deve permitir que o usuário recupere a senha.   | MÉDIA |
-|RF-012  | O software deve ocutar a senha do usuário no momento do login.   | ALTA |
+|RF-012  | O software deve ocultar a senha do usuário no momento do login.   | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -98,7 +98,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser publicada em repositório público acessível na internet (Repl.it, GitHub Pages etc.).| ALTA | 
 |RNF-002| Uso de design responsivo nas interfaces gráficas para diferentes tipos de telas de celular, tablet e etc. |  ALTA | 
-|RNF-003| O aplicativo deve ser compatível com os principais navegadores do mercado para mobile (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari) |  ALTA | 
+|RNF-003| O aplicativo deve ser compatível com os principais navegadores do mercado para mobile (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari) |  MÉDIA | 
 |RNF-004| O site não apresentará aos usuários quaisquer dados de cunho privativo e deverá atender às normas legais, tais como padrões LGPD e etc. | ALTA | 
 
 ## Restrições
