@@ -86,24 +86,24 @@ Depois de completer as tasks, os usuários classificaram em:
 
 Utilizando a escala Likert, foram atribuídas notas de 1 (Discordo totalmente) a (Concordo totalmente). Itens que tiveram nota acima de 4 foram considerados de fácil utilização.  
 
-# Facilidade para criar usuário
+- Facilidade para criar usuário
 
 4 dos 5 usuários conseguiram criar usuário sem precisar de apoio, 60% dos usuários concordaram que é fácil criar usuário, 20% consideraram razoavelmente fácil e 20% consideraram razoavelmente difícil.
 
-# Facilidade para logar no aplicativo
+- Facilidade para logar no aplicativo
 
 Os 5 usuários logaram sem precisar de auxílio e consideraram muito fácil logar no Task IT.
 
-# Facilidade para solicitar nova senha.
+- Facilidade para solicitar nova senha.
 
 Todos os usuários conseguiram completar a solicitação de nova senha.
 80% dos usuários concordaram que é muito fácil logar no Task it, 20% consideraram que é razoavelmente fácil solicitar nova senha.
 
-# Facilidade para criar nova tarefa.
+- Facilidade para criar nova tarefa.
 
 Todos os usuários conseguiram completar a criação de uma nova tarefa sozinhos. Todos os usuários concordaram que é muito fácil criar nova tarefa.
 
-# Facilidade para utilizar o timer
+- Facilidade para utilizar o timer
 
 Todos os usuários conseguiram utilizar o timer os usuários concordaram que é muito fácil editar tarefa.
 
@@ -124,6 +124,7 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
          Questionário Task IT
 
 |    Avaliação                            |Discorda Totalmente |       Discorda     |   Neutro  |	Concorda      | Concorda Totalmente  | Média de avaliação | Porcentagem de aceitação  |
+|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou o Task IT fácil de usar       |     	       |                    |     1     |         4           |                      |          4         |          80%              |
 |Usaria o aplicativo com frequênci|          		       |                    |     1     |         4           |          5           |         	          |         100%              |	
 |Considerou fácil acompanhar as tarefas   |                    |               	    |           |         5           |          5           |                    |         100%              |						
