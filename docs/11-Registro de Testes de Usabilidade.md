@@ -130,7 +130,6 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
 |Considerou fácil acompanhar as tarefas   |                    |               	    |           |         5           |          5           |                    |         100%              |						
 |Considerou o timer útil 	          |          	       |                    |     1     |         2           |          2           |          4         |         	 80%          |	
 |Considerou o design do Task IT intuitivo |                    |                    |     1     |         1           |          2           |         3          |            60%            |	
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 *Porcentagem de aceitação do Task IT (%) = Respostas de Concordo e Concordo Totalmente
 
 
