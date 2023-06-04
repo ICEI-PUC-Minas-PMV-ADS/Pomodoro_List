@@ -20,7 +20,7 @@ const Home = () => {
       <View style={styles.containerLogo}>
         <Image
           source={require('../assets/imglogo.png')}
-          style={{ width: 100 }}
+          style={{ width: 400 }}
           resizeMode='contain'
         />
       </View>

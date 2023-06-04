@@ -50,7 +50,7 @@ const Register = () => {
       <View style={styles.containerLogo}>
         <Image
           source={require('../assets/imglogo.png')}
-          style={{ width: 100 }}
+          style={{ width: 200 }}
           resizeMode='contain'
         />
       </View>
