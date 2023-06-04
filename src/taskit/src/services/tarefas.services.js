@@ -3,6 +3,7 @@ import {BASE_URL} from './urls';
 
 export const registerTarefa = async (param) => {
   try{
+    
     return await API.post(`${BASE_URL}/tarefa`, param).then( 
       response => {
         return response.data;

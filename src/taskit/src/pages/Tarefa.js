@@ -1,138 +1,87 @@
 import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView, View, StatusBar, Text, StyleSheet, Image, TouchableOpacity, TextInput, Button, Alert, FlatList,
-  KeyboardAvoidingView, Platform
+  KeyboardAvoidingView, Platform,
 } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation, useRoute } from '@react-navigation/native';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { registerTarefa, getTarefas } from '../services/tarefas.services';
 
 
 const Tarefa = () => {
-
+  const options = { timeZone: 'America/Sao_Paulo', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
   const navigation = useNavigation();
+  const route = useRoute();
+  const userId = route.params.userId;
 
-  const [task, setTask] = useState([]);
+  const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
-
-  // função de async-storage não esta funcionando 100% ainda
-  async function addTask() {
-    const search = task.filter(task => task === newTask)
-    if (newTask === '') {
-      return;
-    }
-    if (search.length !== 0) {
-      Alert.alert("Atenção", "Nome da tarefa repetido!");
-      return;
-    }
-    setTask([...task, newTask]);
-    setNewTask('');
-    Keyboard.dismiss();
-  }
-  async function removeTask(item) {
-
-    Alert.alert(
-      "Deletar Task",
-      "Tem certeza que deseja remover esta anotação?",
-      [
-        {
-          text: "cancel",
-          onPress: () => {
-            return;
-          },
-          style: 'cancel'
-        },
-        {
-          text: 'Ok',
-          onPress: () => setTask(task.filter(tasks => tasks !== item)),
-        },
-      ],
-      { cancelable: false }
-    );
-  }
-  useEffect(() => {
-    async function carregaDados() {
-      const task = await AsyncStorage.getItem("task");
-      if (task) {
-        setTask(Json.parse(task));
-
+  const [timer, setTimer] = useState('');
+  const [user, setUser] = useState('');
+ 
+    const chamarTarefas = () => {
+      getTarefas({}).then(res => {
+        console.log(res.data);
+        setTasks(res.data);
+      });
+    };
+  
+  const handleCriarTarefa = () => {
+    try {
+      if (newTask === undefined || newTask == "") {
+        throw new Error("favor digitar uma tarefa");
       }
+      if (timer === undefined || timer == "") {
+        throw new Error("favor digitar um tempo");
+      }
+      registerTarefa({
+        nome: newTask,
+        data: new Date().toLocaleString('pt-BR', options),
+        id_user: userId,
+        timer: timer
+      }).then(res => {
+        chamarTarefas();
+      });
+    } catch (error) {
+      alert(error.message);
     }
-    carregaDados()
-  }, [])
 
-  useEffect(() => {
-    async function salvaDados() {
-      AsyncStorage.setItem("task", JSON.stringify(task))
-    }
-    salvaDados();
-  }, [task]);
 
-  // função do aplicativo flatlist funcional
+  }
+ 
 
   return (
-    <>
-      <KeyboardAvoidingView
-        keyboardVerticalOffset={0}
-        behavior="padding"
-        style={{ flex: 1, }}
-        enabled={Platform}
+    <View style={styles.container}>
 
-      >
+<View style={styles.containerLogo}>
+        <Image
+          source={require('../assets/imglogo.png')}
+          style={{ width: 200 }}
+          resizeMode='contain'
+        />
+      </View>
 
-
-        <View style={styles.containerLogo}>
-          <Image
-            source={require('../services/auth.services')}
-            style={{ width: '100%' }}
-            resizeMode='center'
-          />
-        </View>
-
-
-        <View style={styles.container}>
-
-          <View style={styles.Body}>
-            <FlatList
-              style={styles.FlatList}
-              data={task}
-              keyExtractor={item => item.toString()}
-              showsVerticalScrollIndicator={false}
-              renderItem={({ item }) => (
-                <View styles={styles.ContainerView}>
-                  <Text style={styles.Texto}> {item} </Text>
-                  <TouchableOpacity onPress={() => removeTask(item)}>
-                    <MaterialIcons name="delete-forever" size={25} color='#f64c75'
-                    />
-                  </TouchableOpacity>
-                </View>
-              )}
-            />
-
-
-
-          </View>
-
-          <View style={styles.form}>
-            <TextInput
-              style={styles.Input}
-              placeholderTextColor="#999"
-              autoCorrect={true}
-              placeholder='Adicione uma tarefa'
-              maxLength={25}
-              onChangeText={text => setNewTask(text)}
-              value={newTask}
-            />
-            <TouchableOpacity style={styles.Button} onPress={() => addTask()}>
-              <Ionicons name='ios-add' size={25} color='#fff' />
-            </TouchableOpacity>
-          </View>
-
-        </View>
-
-      </KeyboardAvoidingView>
-    </>
-
+      <View style={styles.form}>
+        <TextInput style={styles.Input}
+          placeholderTextColor="#999"
+          autoCorrect={true}
+          placeholder='Adicione uma tarefa'
+          maxLength={25}
+          onChangeText={text => setNewTask(text)}
+          value={newTask} />
+        <TextInput style={styles.Input}
+          keyboardType='numeric' onChangeText={(text) => setTimer(text)}
+          placeholder='numero' maxLength={10} />
+        <TouchableOpacity style={styles.Button} onPress={handleCriarTarefa}>
+          <Ionicons name='ios-add' size={25} color='#fff' />
+        </TouchableOpacity>
+      </View>
+      <Text style={styles.Texto}>Tarefas e Tempo:</Text>
+      {tasks.map(task => (
+        <Text key={task.id} style={styles.Texto}>{task.nome} {timer}</Text>
+      ))}
+    </View>
   );
 }
 // Css da pagina
@@ -161,14 +110,14 @@ const styles = StyleSheet.create({
 
   },
   Input: {
-    flex: 1,
+    
     height: 40,
     backgroundColor: '#eee',
     borderRadius: 4,
     paddingVertical: 5,
     paddingHorizontal: 10,
-    borderwidth: 1,
-    borderColor: 'eee',
+    justifyContent: 'center',
+    flexDirection: 'row'
   },
   Button: {
     height: 40,
@@ -178,6 +127,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#1c6cce',
     borderRadius: 4,
     marginLeft: 10,
+    padding: 5,
   },
   FlatList: {
     Flex: 1,
@@ -199,7 +149,7 @@ const styles = StyleSheet.create({
 
   },
   Texto: {
-    fontSize: 14,
+    fontSize: 20,
     color: '#333',
     fontWeight: 'bold',
     marginTop: 4,

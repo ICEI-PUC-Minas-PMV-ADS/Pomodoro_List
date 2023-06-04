@@ -27,6 +27,13 @@
       "name": "Daniel",
       "phone": "31900004444",
       "id": 4
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$88rcBKAvH/xsUx/RsxFg8uAHbvavzMbiw7Z3.Rytep0dL3xCQiyPC",
+      "name": "teste@gmail.com",
+      "phone": "123456",
+      "id": 5
     }
   ],
   "register": [],
@@ -35,15 +42,22 @@
       "id": 1,
       "nome": "Estudar para a prova",
       "data": "01/01/2022",
-      "recorrencia": 7,
+      "id_user": 1,
       "timer": 30
     },
     {
-      "id": 2,
-      "nome": "Fazer as compras da semana",
-      "data": "10/01/2022",
-      "recorrencia": 15,
-      "timer": 25
+      "nome": "teste",
+      "data": "domingo, 4 de junho de 2023 17:31",
+      "id_user": 1,
+      "timer": "1",
+      "id": 2
+    },
+    {
+      "nome": "teste",
+      "data": "domingo, 4 de junho de 2023 17:34",
+      "id_user": 5,
+      "timer": "1",
+      "id": 3
     }
   ]
 }

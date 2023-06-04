@@ -36,7 +36,7 @@ const Login = () => {
         setSigned(true);
         setName(res.user.name);
         AsyncStorage.setItem('@TOKEN_KEY', res.accessToken).then();
-        navigation.navigate('Tarefa'); 
+        navigation.navigate('Tarefa', {userId:res.user.id}); 
       }else{
          Alert.alert('Atenção', 'Usuário ou senha inválidos!');
       }
