@@ -107,13 +107,12 @@ Todos os usuários conseguiram completar a criação de uma nova tarefa sozinhos
 Todos os usuários conseguiram utilizar o timer os usuários concordaram que é muito fácil editar tarefa.
 
          Avaliações do Task IT
-|------------------------------------------|------|------|
+
 |1 – Facilidade para criar usuário         | 4    | (80%)
 |2 – Facilidade para logar no aplicativo   |   5  |(100%)|
 |3 – Facilidade para solicitar nova senha  |	5   |(100%)|
 |4 – Facilidade para criar nova tarefa     |	5   |(100%)|
 |5 – Facilidade para utilizar o timer      |	5   |(100%)|
-|------------------------------------------|------|------|
 *Porcentagem de aceitação do Task IT (%) = Respostas de Concordo e Concordo Totalmente
 
 
@@ -122,15 +121,10 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
          Questionário Task IT
 
 |    Avaliação                            |Discorda Totalmente |       Discorda     |   Neutro  |	Concorda      | Concorda Totalmente  | Média de avaliação | Porcentagem de aceitação  |
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou o Task IT fácil de usar       |     	       |                    |     1     |         4           |                      |          4         |          80%              |
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Usaria o aplicativo com frequênci|          		       |                    |     1     |         4           |          5           |         	          |         100%              |	
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou fácil acompanhar as tarefas   |                    |               	    |           |         5           |          5           |                    |         100%              |						
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou o timer útil 	          |          	       |                    |     1     |         2           |          2           |          4         |         	 80%          |	
-|-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou o design do Task IT intuitivo |                    |                    |     1     |         1           |          2           |         3          |            60%            |	
 |-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 *Porcentagem de aceitação do Task IT (%) = Respostas de Concordo e Concordo Totalmente
@@ -139,16 +133,16 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
 # Feedback dos usuários sobre o Task IT.
 	
 
-# O que mais agradou no Task IT
+ O que mais agradou no Task IT
 
 - Facilidade para visualizer as tarefas criadas,
 - Ser rápido criar novas tarefas.
 
-# O que menos agradou no Task IT
+O que menos agradou no Task IT
 	
 - Tamanho da fonte
 	
- # Recomendação de melhoria:
+ Recomendação de melhoria:
 
 - Aumentar a fonte do aplicativo,
 - Alerta sonoro no fim do timer.
