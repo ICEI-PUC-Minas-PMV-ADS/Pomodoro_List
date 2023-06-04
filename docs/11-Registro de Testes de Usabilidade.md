@@ -79,11 +79,11 @@ Tasks realizadas<br>
 # Avaliação das tasks
 Depois de completer as tasks, os usuários classificaram em:
 
-•	Facilidade para criar login no aplicativo,
-•	Facilidade para logar,
-•	Facilidade para solicitar nova senha,
-•	Facilidade para criar nova tarefa.
-•	Facilidade para utilizar o timer,
+•	Facilidade para criar login no aplicativo,<br>
+•	Facilidade para logar,<br>
+•	Facilidade para solicitar nova senha,<br>
+•	Facilidade para criar nova tarefa,<br>
+•	Facilidade para utilizar o timer.<br>
 
 Utilizando a escala Likert, foram atribuídas notas de 1 (Discordo totalmente) a (Concordo totalmente). Itens que tiveram nota acima de 4 foram considerados de fácil utilização.  
 
