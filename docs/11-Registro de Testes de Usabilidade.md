@@ -23,12 +23,12 @@ O teste levou 1 hora para ser aplicado, e 80% dos usuários consideraram o Task 
 
 Foi observado seguinte item para ponto de atenção, apesar de não ser um problema impeditivo:
 
-•	Tamanho da fonte do título das tarefas
-•	Sinalização Sonora para fim do timer.
+•	Tamanho da fonte do título das tarefas <br>
+•	Sinalização Sonora para fim do timer.<br>
 
 Nas perguntas sobre o que mais agradou no Task IT foram levantados os pontos:
-•	Facilidade para incluir informações,
-•	Apresentação das tarefas para serem acompanhadas.
+•	Facilidade para incluir informações,<br>
+•	Apresentação das tarefas para serem acompanhadas.<br>
 
 
 # Metodologia
@@ -55,7 +55,7 @@ Os participantes foram recrutados pela equipe de desenvolvimento. São 5 pessoas
 	
 Resultados
 
-Tasks realizadas
+Tasks realizadas<br>
 	1 – Criar usuário no Task IT,<br>
 	2 – Logar no Task IT,<br>
 	3 – Utilizar a opção para reset de senha,<br>
@@ -87,7 +87,7 @@ Depois de completer as tasks, os usuários classificaram em:
 
 Utilizando a escala Likert, foram atribuídas notas de 1 (Discordo totalmente) a (Concordo totalmente). Itens que tiveram nota acima de 4 foram considerados de fácil utilização.  
 
-- Facilidade para criar usuário
+- Facilidade para criar usuário 
 
 4 dos 5 usuários conseguiram criar usuário sem precisar de apoio, 60% dos usuários concordaram que é fácil criar usuário, 20% consideraram razoavelmente fácil e 20% consideraram razoavelmente difícil.
 
