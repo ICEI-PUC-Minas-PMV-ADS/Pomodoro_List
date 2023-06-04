@@ -108,7 +108,8 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
 
          Avaliações do Task IT
 
-|1 – Facilidade para criar usuário         | 4    | (80%)
+|1 – Facilidade para criar usuário         | 4    | (80%)|
+|------------------------------------------|------|------|
 |2 – Facilidade para logar no aplicativo   |   5  |(100%)|
 |3 – Facilidade para solicitar nova senha  |	5   |(100%)|
 |4 – Facilidade para criar nova tarefa     |	5   |(100%)|
