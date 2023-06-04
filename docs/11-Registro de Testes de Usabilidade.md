@@ -39,12 +39,12 @@ Cada teste individual levou em média uma hora em sua realização.
 
 Após os testes foram realizadas perguntas para que os usuários avaliassem com uma escala de 5 pontos (Discordo totalmente e concordo totalmente) para medir os itens avaliados.
 
-•	Facilidade para criar novo usuário,
-•	Facilidade de logar no aplicativo,
-•	Facilidade para resetar a senha,
-•	Facilidade para criar nova tarefa,
-•	Facilitade para iniciar o timer,
-•	Facilitade para editar tarefa.
+•	Facilidade para criar novo usuário,<br>
+•	Facilidade de logar no aplicativo,<br>
+•	Facilidade para resetar a senha,<br>
+•	Facilidade para criar nova tarefa,<br>
+•	Facilitade para iniciar o timer,<br>
+•	Facilitade para editar tarefa.<br>
 
 Ao final dessas respostas foi perguntado o que cada participante mais gostou e o que menos gostou, além de melhorias sugeridas.
 
@@ -56,12 +56,12 @@ Os participantes foram recrutados pela equipe de desenvolvimento. São 5 pessoas
 Resultados
 
 Tasks realizadas
-	1 – Criar usuário no Task IT,
-	2 – Logar no Task IT,
-	3 – Utilizar a opção para reset de senha,
-	4 – Criar nova tarefa,
-	6 – Iniciar o timer,
-	7 – Concluir tarefa. 
+	1 – Criar usuário no Task IT,<br>
+	2 – Logar no Task IT,<br>
+	3 – Utilizar a opção para reset de senha,<br>
+	4 – Criar nova tarefa,<br>
+	6 – Iniciar o timer,<br>
+	7 – Concluir tarefa.<br>
 
 # Avaliação das tasks realizadas
 
