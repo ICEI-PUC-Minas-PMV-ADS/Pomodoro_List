@@ -129,7 +129,7 @@ Todos os usuários conseguiram utilizar o timer os usuários concordaram que é 
 |-----------------------------------------|--------------------|--------------------|-----------|---------------------|----------------------|--------------------|---------------------------|
 |Considerou o Task IT fácil de usar       |     	       |                    |     1     |         4           |                      |          4         |          80%              |
 |Usaria o aplicativo com frequênci|          		       |                    |     1     |         4           |          5           |         	          |         100%              |	
-|Considerou fácil acompanhar as tarefas   |                    |               	    |           |         5           |          5           |                    |         100%              |						
+|Considerou fácil acompanhar as tarefas   |                    |               	    |           |         1           |          4           |          5          |         100%              |						
 |Considerou o timer útil 	          |          	       |                    |     1     |         2           |          2           |          4         |         	 80%          |	
 |Considerou o design do Task IT intuitivo |                    |                    |     1     |         1           |          2           |         3          |            60%            |	
 
