@@ -38,6 +38,7 @@ Os responsáveis pelo teste recrutou pessoas de ambos os sexos, entre 20 e 50 an
 Cada teste individual levou em média uma hora em sua realização.
 
 Após os testes foram realizadas perguntas para que os usuários avaliassem com uma escala de 5 pontos (Discordo totalmente e concordo totalmente) para medir os itens avaliados.
+
 •	Facilidade para criar novo usuário,
 •	Facilidade de logar no aplicativo,
 •	Facilidade para resetar a senha,
