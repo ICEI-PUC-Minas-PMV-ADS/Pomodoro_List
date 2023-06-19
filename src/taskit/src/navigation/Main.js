@@ -51,6 +51,15 @@ const Main = () => {
           header: () => null,
         }}
       />
+
+      <Stack.Screen
+        name="Timer"
+        component={Timer}
+        options={{
+          header: () => null,
+        }}
+      />
+
     </Stack.Navigator>
   );
 };

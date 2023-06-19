@@ -36,3 +36,22 @@ export const registerTarefa = async (param) => {
       return null;
     }
 }
+
+// Deletar Tarefas CONFIGURAR
+export const DeleteTarefas = async () => {
+  try{
+    return await API.get(`${BASE_URL}/tarefa`).then( 
+      response => {
+        const message = response.data?"funcionou":"não funcionou";
+        return { data: response.data, message: message };
+      },
+      error =>{
+        console.log(error);
+        return  null;
+      }
+    );
+  }catch(error){
+    console.log(error);
+    return null;
+  }
+}

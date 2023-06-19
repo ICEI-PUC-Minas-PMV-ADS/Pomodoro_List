@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Alert, Text, Image, TextInput, TouchableOpacity } from 'react-native';
 import { Button, Headline } from 'react-native-paper';
+import { Ionicons, MaterialIcons } from '@expo/vector-icons';
 
 import Input from '../components/Input';
 
@@ -8,6 +9,8 @@ import { useNavigation } from '@react-navigation/native';
 
 export default class Timer extends React.Component {
   
+  
+
   constructor(props){
     super(props)
     this.state = {
@@ -117,6 +120,7 @@ export default class Timer extends React.Component {
   }
 
   render(){
+    const { navigation} = this.props;
     return (
       <View style={styles.container}>
 <View>
@@ -187,7 +191,12 @@ export default class Timer extends React.Component {
     style={[styles.textInput]}
     />
   </View>
-  
+
+  <TouchableOpacity style={styles.LogoutButton} onPress={() => navigation.navigate('Login')}>
+    <Text Text style={styles.TextoLog}>Logout</Text>
+    <Ionicons text='Logout' size={10} color='#fff' />
+  </TouchableOpacity>
+
   </View>
 
 
@@ -225,6 +234,22 @@ const styles = StyleSheet.create({
     paddingLeft:15,
     paddingRight:15,
     color: '#4682B4'
+  },
+  LogoutButton: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 5,
+    marginTop: 25,
+    paddingVertical: 5,
+  },
+
+  TextoLog: {
+    fontSize: 20,
+    color: '#333',
+    fontWeight: 'bold',
+    marginTop: 4,
+    textAlign: 'center',
+    position: 'relative',
   },
   textInput:{
     borderRadius: 4,

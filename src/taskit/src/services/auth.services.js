@@ -20,8 +20,10 @@ export const register = async (param) => {
 
 export const login = async (param) => {
   try{
+    console.log(param);
     return await API.post(`${BASE_URL}/login`, param).then( 
       response => {
+        console.log(response.data);
         return response.data;
       },
       error =>{
