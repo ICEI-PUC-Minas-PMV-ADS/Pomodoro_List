@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Alert, Text, Image, TextInput, TouchableOpacity } from 'react-native';
 import { Button, Headline } from 'react-native-paper';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { AlterarTarefa, registerTarefa} from '../services/tarefas.services';
 
 import Input from '../components/Input';
 
@@ -46,12 +47,26 @@ export default class Timer extends React.Component {
     this.settm()
   }
 
-  startTimer(){
+  startTimer(id){
     if (this.state.contimer) {
       this.timer()
+      this.AlterarTimer(id);
       this.setState({
         contimer: false
       })
+    }
+  }
+
+  AlterarTimer(id) {
+    try {
+      console.log(this.state.wtm); 
+      AlterarTarefa(id, {
+        timer: parseInt(this.state.wtm.toString(), 10),
+      }).then(res => {
+        console.log("alterado com sucesso!")
+      });
+    } catch (error) {
+      alert(error.message);
     }
   }
 
@@ -120,11 +135,13 @@ export default class Timer extends React.Component {
   }
 
   render(){
-    const { navigation} = this.props;
+    const {navigation, route} = this.props;
+    const {id, name} = route.params;
     return (
       <View style={styles.container}>
 <View>
   <Text style={styles.statusStyle}>{this.state.statustime}</Text>
+  {name !== undefined && ( <Text style={styles.statusStyle}>{name.toString()}</Text> )}
 </View>
 <View>
   <Text style={{textAlign: 'center', fontSize: 50, color:'#FFFFFF'}}>{this.state.wm.toString().length == 1 ? 0 + this.state.wm.toString() : this.state.wm.toString()}
@@ -132,7 +149,7 @@ export default class Timer extends React.Component {
 </View>
 
 <View style={{flex:1, flexDirection: 'row', alignItems: 'center', justifyContent:'center'}}>
-  <TouchableOpacity onPress={this.startTimer}>
+  <TouchableOpacity onPress={this.startTimer(id)}>
     <View style={styles.button}>
       <Text style={styles.buttonText}>Começar</Text>
     </View>

@@ -32,14 +32,12 @@ const Tarefa = () => {
       if (newTask === undefined || newTask == "") {
         throw new Error("favor digitar uma tarefa");
       }
-      if (timer === undefined || timer == "") {
-        throw new Error("favor digitar um tempo");
-      }
+      
       registerTarefa({
         nome: newTask,
         data: new Date().toLocaleString('pt-BR', options),
         id_user: userId,
-        timer: timer
+        timer: 0,
       }).then(res => {
         chamarTarefas();
       });
@@ -82,7 +80,7 @@ const Tarefa = () => {
      {tasks.map(task => (
       <>
         <Text key={task.id} style={styles.TextoTimer}>{task.nome} {timer}</Text>
-        <TouchableOpacity onPress={() => navigation.navigate('Timer')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Timer', {id:task.id, name:task.nome})}>
           <Ionicons name='md-timer-outline' size={25} />
         </TouchableOpacity>
       </>
@@ -124,7 +122,7 @@ const styles = StyleSheet.create({
     borderColor: '#eee',
 
   },
-  
+
   Input: {
     
     height: 40,

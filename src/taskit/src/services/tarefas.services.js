@@ -37,6 +37,25 @@ export const registerTarefa = async (param) => {
     }
 }
 
+export const AlterarTarefa = async (id, param) => {
+  try{
+    
+    return await API.patch(`${BASE_URL}/tarefa/${id}`, param).then( 
+      response => {
+        return response.data;
+      },
+      error =>{
+        console.log(error);
+        return  null;
+      }
+    );
+  }catch(error){
+    console.log(error);
+    return null;
+  }
+
+}
+
 // Deletar Tarefas CONFIGURAR
 export const DeleteTarefas = async () => {
   try{
