@@ -86,12 +86,6 @@ const Login = () => {
         <Button
           style={styles.button}
           mode="contained"
-          onPress={() => navigation.navigate('Timer')}>
-          <Text style={styles.buttonText}> Timer</Text>
-        </Button>
-        <Button
-          style={styles.button}
-          mode="contained"
           onPress={() => navigation.goBack()}>
           <Text style={styles.buttonText}> Voltar</Text>
         </Button>

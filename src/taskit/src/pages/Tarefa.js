@@ -83,6 +83,8 @@ const Tarefa = () => {
         <TouchableOpacity onPress={() => navigation.navigate('Timer', {id:task.id, name:task.nome})}>
           <Ionicons name='md-timer-outline' size={25} />
         </TouchableOpacity>
+
+
       </>
       ))
     }
