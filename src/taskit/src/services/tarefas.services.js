@@ -57,9 +57,9 @@ export const AlterarTarefa = async (id, param) => {
 }
 
 // Deletar Tarefas CONFIGURAR
-export const DeleteTarefas = async () => {
+export const DeleteTarefa = async (id) => {
   try{
-    return await API.get(`${BASE_URL}/tarefa`).then( 
+    return await API.delete(`${BASE_URL}/tarefa/${id}`).then( 
       response => {
         const message = response.data?"funcionou":"não funcionou";
         return { data: response.data, message: message };

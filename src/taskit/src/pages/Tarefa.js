@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import {View, Text, StyleSheet, Image, TouchableOpacity, TextInput} from 'react-native';
+import {View, Text, StyleSheet, Image, TouchableOpacity, TextInput, ScrollView} from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Ionicons} from '@expo/vector-icons';
-import { registerTarefa, getTarefas } from '../services/tarefas.services';
+import { registerTarefa, getTarefas, DeleteTarefa } from '../services/tarefas.services';
 
 
 const Tarefa = () => {
@@ -44,11 +44,18 @@ const Tarefa = () => {
     } catch (error) {
       alert(error.message);
     }
+  }
 
-
+  const handleDeletarTarefa = (id) => {
+    try {      
+      DeleteTarefa(id).then(res => {
+        chamarTarefas();
+      });
+    } catch (error) {
+      alert(error.message);
+    }
   }
  
-
   return (
     <View style={styles.container}>
 
@@ -68,27 +75,30 @@ const Tarefa = () => {
         maxLength={25}
         onChangeText={text => setNewTask(text)}
         value={newTask} />
-      <TextInput style={styles.Input}
-        keyboardType='numeric' onChangeText={(text) => setTimer(text)}
-        placeholder='numero' maxLength={10} />
+     
       <TouchableOpacity style={styles.Button} onPress={handleCriarTarefa}>
         <Ionicons name='ios-add' size={25} color='#fff' />
       </TouchableOpacity>
     </View>
 
-    <Text style={styles.Texto}>Tarefas e Tempo:</Text>
-     {tasks.map(task => (
-      <>
+    <Text style={styles.Texto}>Tarefas:</Text>
+     <ScrollView>
+     {tasks.map((task, index) => (
+      <View style={styles.TaskAlignment} key={index}>
         <Text key={task.id} style={styles.TextoTimer}>{task.nome} {timer}</Text>
         <TouchableOpacity onPress={() => navigation.navigate('Timer', {id:task.id, name:task.nome})}>
           <Ionicons name='md-timer-outline' size={25} />
         </TouchableOpacity>
 
-
-      </>
+        <TouchableOpacity onPress={() => handleDeletarTarefa(task.id)}>
+          <Ionicons name='close-outline' size={25} />
+        </TouchableOpacity>
+      </View>
       ))
     }
 
+     </ScrollView>
+     
       <TouchableOpacity style={styles.LogoutButton} onPress={() => navigation.navigate('Login')}>
           <Text style={styles.TextoLog}>Logout</Text>
           <Ionicons text='Logout' size={10} color='#fff' />
@@ -113,6 +123,13 @@ const styles = StyleSheet.create({
     flex: 1,
 
   },
+
+  TaskAlignment: {
+    flexDirection: 'row',
+    gap: 6,
+    paddingVertical: 12,
+  },
+
   form: {
     padding: 0,
     height: 60,
@@ -177,12 +194,12 @@ const styles = StyleSheet.create({
   },
 
   Texto: {
-    fontSize: 20,
+    fontSize: 30,
     color: '#333',
     fontWeight: 'bold',
     marginTop: 4,
     textAlign: 'center',
-
+    paddingVertical: 6,
   },
 
   TextoTimer: {
@@ -192,6 +209,7 @@ const styles = StyleSheet.create({
     marginTop: 4,
     textAlign: 'center',
     flexDirection: 'row',
+    flex: 1,
 
   },
 
