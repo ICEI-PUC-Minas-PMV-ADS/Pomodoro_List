@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Alert, Text, Image, TextInput} from 'react-native';
-import {Button, Headline } from 'react-native-paper';
+import {Button} from 'react-native-paper';
 //import Container from '../components/Container';
 //import Header from '../components/Header';
 //import Body from '../components/Body';
 import Input from '../components/Input';
 //import Logo from '../components/Logo';
-import{ useFonts, Montserrat_300Light} from '@expo-google-fonts/montserrat';
+///import{ useFonts, Montserrat_300Light} from '@expo-google-fonts/montserrat';
 import { useNavigation } from '@react-navigation/native';
 import {useUser} from '../contexts/UserContext';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {login} from '../services/auth.services';
-import Tarefa from './Tarefa';
-import Timer from './Timer';
-import Troca from './TrocaSenha';
+///import Tarefa from './Tarefa';
+///import Timer from './Timer';
+///import Troca from './TrocaSenha';
 
 const Login = () => {
 

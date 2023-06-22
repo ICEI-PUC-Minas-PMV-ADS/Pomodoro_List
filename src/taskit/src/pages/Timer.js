@@ -208,11 +208,20 @@ export default class Timer extends React.Component {
     style={[styles.textInput]}
     />
   </View>
+  
+  <Button
+    style={styles.LogoutButton}
+    mode="contained"
+    onPress={() => navigation.goBack()}>
+    <Text style={styles.TextoLog}> Voltar</Text>
+  </Button>
 
-  <TouchableOpacity style={styles.LogoutButton} onPress={() => navigation.navigate('Login')}>
-    <Text Text style={styles.TextoLog}>Logout</Text>
-    <Ionicons text='Logout' size={10} color='#fff' />
-  </TouchableOpacity>
+  <Button
+    style={styles.LogoutButton}
+    mode="contained"
+    onPress={() => navigation.navigate('Login')}>
+    <Text style={styles.TextoLog}>Logout</Text>
+  </Button>
 
   </View>
 
@@ -261,7 +270,7 @@ const styles = StyleSheet.create({
   },
 
   TextoLog: {
-    fontSize: 20,
+    fontSize: 18,
     color: '#333',
     fontWeight: 'bold',
     marginTop: 4,

@@ -100,7 +100,7 @@ const Tarefa = () => {
      </ScrollView>
      
       <TouchableOpacity style={styles.LogoutButton} onPress={() => navigation.navigate('Login')}>
-          <Text style={styles.TextoLog}>Logout</Text>
+          <Text style={styles.TextoLog}>LOGOUT</Text>
           <Ionicons text='Logout' size={10} color='#fff' />
       </TouchableOpacity>
     </View>
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
   },
 
   TextoLog: {
-    fontSize: 20,
+    fontSize: 18,
     color: '#333',
     fontWeight: 'bold',
     marginTop: 4,
