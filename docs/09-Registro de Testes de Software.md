@@ -11,7 +11,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 | Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no timer; <br> - Receber um alerta quando o tempo acabar. |
 |Critério de Êxito | O usuário consegue acompanhar o tempo dedicado a uma tarefa e ser alertado quando o tempo definido por ele se esgotar. |
 
-![Timer](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/timer2.jpg)
+![Timer](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/timer3.jpg)
 
 
 | **Caso de Teste** 	| **CT-02 – Criar Tarefas** 	|
