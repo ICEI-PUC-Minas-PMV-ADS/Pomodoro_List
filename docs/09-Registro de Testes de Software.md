@@ -4,6 +4,16 @@
 
 Nesta etapa do projeto foram realizados os testes do cadastro do usuários como gerenciamento de conta e login. 
 
+| **Caso de Teste** 	| **CT-01 – Timer** 	|
+|-------	|---	|
+|	Requisito Associado 	| RF-001 - O software deve apresentar um timer para o controle de tempo;<br>RF-002 - O timer deve possibilitar que o usuário ajuste o tempo no modo manual;<br>RF-003 - O software deve notificar o usuário quando o tempo do timer acabar.|
+| Objetivo do Teste 	| Verificar se a página timer da aplicação corresponde aos requisitos. |
+| Passos 	| - Acessar o aplicativo; <br> - Realizar o login; <br> - Clicar sobre a tarefa e definir o tempo de execução; <br> - Iniciar a contagem de tempo no timer; <br> - Receber um alerta quando o tempo acabar. |
+|Critério de Êxito | O usuário consegue acompanhar o tempo dedicado a uma tarefa e ser alertado quando o tempo definido por ele se esgotar. |
+
+![Timer](https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List/blob/main/docs/img/timer.jpg)
+
+
 | **Caso de Teste** 	| **CT-02 – Criar Tarefas** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-004 - O software deve permitir que o usuário crie uma tarefa.|
@@ -16,7 +26,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 ![inserir_tarefa_ok](https://user-images.githubusercontent.com/101607336/236715833-c26f945b-2fdf-47cb-a05b-715048feb715.png)
 
 
-| **Caso de Teste** 	| **CT-05 – Exluir tarefas** 	|
+| **Caso de Teste** 	| **CT-03 – Excluir tarefas** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-007 - O software deve permitir que as tarefas da lista sejam excluídas.|
 | Objetivo do Teste 	| Verificar se a exclusão de tarefas corresponde aos requisitos. |
@@ -28,7 +38,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 ![deletar_tarefa_ok](https://user-images.githubusercontent.com/101607336/236716016-24fa5125-7835-437e-90c7-379b73f18bd3.png)
 
 
-| **Caso de Teste** 	| **CT-07 – Efetuar Login** 	|
+| **Caso de Teste** 	| **CT-04 – Efetuar Login** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-009 - O software deve ter uma tela de login.|
 | Objetivo do Teste 	| Verificar se a tela de login corresponde aos requisitos. |
@@ -38,7 +48,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 ![tela_login](https://user-images.githubusercontent.com/101607336/236716167-505c8a7a-8942-44dd-9cc1-407d38da9335.png)
 
 
-| **Caso de Teste** 	| **CT-08 – Efetuar Cadastro** 	|
+| **Caso de Teste** 	| **CT-05 – Efetuar Cadastro** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-010 - O software deve ter uma tela de cadastro.|
 | Objetivo do Teste 	| Verificar se a tela de cadastro corresponde aos requisitos. |
@@ -52,7 +62,7 @@ Nesta etapa do projeto foram realizados os testes do cadastro do usuários como 
 ![usuario_criado](https://user-images.githubusercontent.com/101607336/236716438-4dc9351f-6ea5-4560-9c86-b21968921a47.png)
 
 
-| **Caso de Teste** 	| **CT-10 – Ocultar Senha** 	|
+| **Caso de Teste** 	| **CT-07 – Ocultar Senha** 	|
 |-------	|---	|
 |	Requisito Associado 	| RF-012 - O software deve ocutar a senha do usuário no momento do login.|
 | Objetivo do Teste 	| Verificar se a ocultação da senha corresponde aos requisitos. |
