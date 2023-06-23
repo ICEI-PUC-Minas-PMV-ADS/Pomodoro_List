@@ -15,12 +15,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Carlos Moreira    | Cronometrar o tempo gasto para executar tarefas.| Revisar os conteúdos da prova com mais facilidade.|
 |Carlos Moreira    | Ser notificado quando o tempo alocado para a execução de uma tarefa acabar.| Avançar para as próximas tarefas.  |
 |Mônica Ribeiro     | Ajustar o tempo gasto em cada tarefa.  | Ter tempo livre aos finais de semana. |
 |Ricardo Nunes     | Organizar e controlar tarefas por meio de listas   | Otimizar a entrega de trabalhos dentro do prazo. |
 |Ricardo Nunes     | Cadastrar um perfil e acessar regularmente, por meio de login, as informações da lista.| Acompanhar e controlar sua produtividade. |
-|Ângela Santos     | Marcar tarefas como concluídas.   | Controlar as tarefas cadastradas. |
 |Ângela Santos     | Excluir tarefas desnecessárias.   | Não se preocupar com uma tarefa que não precisa de ser cumprida. |
 
 ## Modelagem do Processo de Negócio 
@@ -77,13 +75,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID    | Descrição do Requisito  | Prioridade |
 |--------|-----------------------------------------|----|
 |RF-001  | O software deve apresentar um timer para o controle de tempo. | MÉDIA | 
-|RF-002  | O timer deve possibilitar que o usuário ajuste o tempo no modo manual para executar uma tarefa.   | MÉDIA |
 |RF-003  | O software deve notificar o usuário quando o tempo do timer acabar.   | MÉDIA |
 |RF-004  | O software deve permitir que o usuário crie uma tarefa.   | ALTA |
-|RF-005  | O software deve permitir que o usuário edite uma tarefa.   | MÉDIA |
-|RF-006  | O software deve permitir que o usuário realize a marcação de tarefas realizadas.   | MÉDIA |
 |RF-007  | O software deve permitir que o usuário exclua uma tarefa.   | ALTA |
-|RF-008  | O software deve permitir que as tarefas sejam configuradas como recorrentes (diárias, semanais, mensais).   | MÉDIA |
 |RF-009  | O software deve ter uma tela de login. | ALTA |
 |RF-010  | O software deve ter uma tela de cadastro.   | ALTA |
 |RF-011  | O software deve permitir que o usuário recupere a senha.   | MÉDIA |
