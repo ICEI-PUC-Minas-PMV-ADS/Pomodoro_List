@@ -1,0 +1,28 @@
+message: Aplicação móvel terá um gestor de tarefas e um cronômetro cuja principal finalidade é a utilização do método pomodoro.
+title: Pomodoro_List
+authors:
+  - family-names: Victor Fraga
+    given-names: Diego
+  - family-names: Teixeira da Costa
+    given-names: Igor
+  - family-names: Samara Araujo da Silva
+    given-names: Caroline
+  - family-names: Malta Boscatti
+    given-names: Thais
+  - family-names: Munhoz Carneiro
+    given-names: Thais
+  - family-names: Eduardo Silva Oliveira
+    given-names: Vinícius
+  - family-suffix: Silva
+    given-names: Thiago Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Lúcia da Silva
+    given-names: Soraia
+keywords:
+  - Pomodoro
+  - Gerenciamento de Tarefas
+  - TDAH
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/Pomodoro_List
+version: 1.0.0
+date-released: 2024-06-23
